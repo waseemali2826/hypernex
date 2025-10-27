@@ -2,15 +2,10 @@ import {
   Menu,
   X,
   Search,
-  Facebook,
-  Linkedin,
-  Twitter,
-  Mail,
-  Phone,
-  MapPin,
   ArrowRight,
 } from "lucide-react";
 import { useState } from "react";
+import PageFooter from "@/components/PageFooter";
 
 export default function Portfolio() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
