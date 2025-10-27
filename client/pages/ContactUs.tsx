@@ -67,7 +67,7 @@ export default function ContactUs() {
                 Services
               </a>
               <a
-                href="/#portfolio"
+                href="/portfolio"
                 className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
                 Portfolio
@@ -108,7 +108,7 @@ export default function ContactUs() {
                 Services
               </a>
               <a
-                href="/#portfolio"
+                href="/portfolio"
                 className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
                 Portfolio
@@ -126,11 +126,11 @@ export default function ContactUs() {
 
       {/* Page Title */}
       <div className="pt-24 sm:pt-28 lg:pt-32 pb-8 sm:pb-12 lg:pb-16 px-3 sm:px-4 lg:px-8 border-b border-[#21BFFF]/20">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white mb-4">
             Contact Us
           </h1>
-          <div className="flex items-center gap-2 text-gray-400">
+          <div className="flex items-center justify-center gap-2 text-gray-400">
             <a href="/" className="hover:text-[#21BFFF] transition">
               Home
             </a>
@@ -264,9 +264,9 @@ export default function ContactUs() {
               width="100%"
               height="100%"
               frameBorder="0"
-              title="HyperNexis Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.7289622123003!2d72.96167!3d31.41764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392f46b5d5b5d5b5%3A0x5b5b5b5b5b5b5b5b!2sFaisalabad%2C%20Punjab!5e0!3m2!1sen!2spk!4v1234567890"
-              allowFullScreen=""
+              title="HyperNexis Location - People Colony Faisalabad"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.408268847434!2d72.95908!3d31.420833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392f46f5d7d7d7d7%3A0x7d7d7d7d7d7d7d7d!2sPeople%20Colony%2C%20Faisalabad!5e0!3m2!1sen!2spk!4v1640000000000"
+              allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
@@ -362,7 +362,7 @@ export default function ContactUs() {
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
                     <a
-                      href="/#services"
+                      href="/portfolio"
                       className="text-white hover:text-[#21BFFF] transition"
                     >
                       PORTFOLIO
