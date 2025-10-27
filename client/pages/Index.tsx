@@ -6,26 +6,56 @@ import {
   Users,
   Award,
   TrendingUp,
+  Search,
+  Menu,
+  X,
+  Facebook,
+  Linkedin,
+  Twitter,
+  Mail,
+  Phone,
+  MapPin,
 } from "lucide-react";
 import AnimatedDots from "@/components/AnimatedDots";
+import { useState } from "react";
 
 export default function Index() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-black scroll-smooth">
       {/* Header */}
-      <header className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50">
+      <header className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-[#21BFFF]/10">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
           <div className="flex items-center justify-between h-14 sm:h-16">
             <span className="text-lg sm:text-xl font-bold text-white">HyperNexis</span>
-            <nav className="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-4 sm:gap-8">
-              <a
-                href="#"
-                className="text-xs sm:text-sm text-gray-300 hover:text-[#21BFFF] transition"
-              >
-                Home
-              </a>
+            <nav className="hidden md:flex items-center gap-6 lg:gap-8">
+              <a href="#" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Home</a>
+              <a href="#services" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Services</a>
+              <a href="#portfolio" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Portfolio</a>
+              <a href="#contact" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Contact Us</a>
             </nav>
+            <div className="flex items-center gap-3">
+              <button className="hidden sm:flex p-2 hover:text-[#21BFFF] transition">
+                <Search className="w-5 h-5 text-gray-300" />
+              </button>
+              <button className="hidden sm:flex w-10 h-10 rounded-lg bg-[#221040] border border-[#21BFFF]/20 items-center justify-center hover:border-[#21BFFF]/50 transition" />
+              <button
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                className="md:hidden p-2 text-gray-300 hover:text-[#21BFFF]"
+              >
+                {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+              </button>
+            </div>
           </div>
+          {mobileMenuOpen && (
+            <nav className="md:hidden flex flex-col gap-3 pb-4 border-t border-[#21BFFF]/10 pt-4">
+              <a href="#" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Home</a>
+              <a href="#services" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Services</a>
+              <a href="#portfolio" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Portfolio</a>
+              <a href="#contact" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Contact Us</a>
+            </nav>
+          )}
         </div>
       </header>
 
