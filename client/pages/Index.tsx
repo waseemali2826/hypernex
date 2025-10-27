@@ -311,7 +311,7 @@ export default function Index() {
                   className="h-8 sm:h-10 w-auto"
                 />
               </div>
-              <p className="text-gray-300 text-xs sm:text-sm mb-6 leading-relaxed">
+              <p className="text-white text-xs sm:text-sm mb-6 leading-relaxed">
                 Hypernexis where innovation meets exceptional experiences. Join us and elevate your online journey!
               </p>
 
@@ -327,7 +327,7 @@ export default function Index() {
                     Subscribe
                   </button>
                 </div>
-                <p className="text-gray-400 text-xs mt-2">*We Will Not Share Your Personal Info</p>
+                <p className="text-white text-xs mt-2">*We Will Not Share Your Personal Info</p>
               </div>
             </div>
 
@@ -335,58 +335,58 @@ export default function Index() {
             <div className="grid grid-cols-3 gap-4 sm:gap-6">
               <div>
                 <h4 className="font-bold text-white text-sm sm:text-base mb-4">Find Us</h4>
-                <ul className="space-y-2 sm:space-y-3 text-gray-400 text-xs sm:text-sm">
+                <ul className="space-y-2 sm:space-y-3 text-white text-xs sm:text-sm">
                   <li className="flex gap-2 items-center">
                     <Linkedin className="w-4 h-4 text-[#21BFFF] flex-shrink-0" />
-                    <span className="text-[#21BFFF]">LinkedIn</span>
+                    <span className="text-white">LinkedIn</span>
                   </li>
                   <li className="flex gap-2 items-center">
                     <Facebook className="w-4 h-4 text-[#21BFFF] flex-shrink-0" />
-                    <span className="text-[#21BFFF]">Facebook</span>
+                    <span className="text-white">Facebook</span>
                   </li>
                   <li className="flex gap-2 items-center">
                     <Twitter className="w-4 h-4 text-[#21BFFF] flex-shrink-0" />
-                    <span className="text-[#21BFFF]">Instagram</span>
+                    <span className="text-white">Instagram</span>
                   </li>
                 </ul>
               </div>
 
               <div>
                 <h4 className="font-bold text-white text-sm sm:text-base mb-4">Menus</h4>
-                <ul className="space-y-2 sm:space-y-2.5 text-gray-400 text-xs sm:text-sm">
+                <ul className="space-y-2 sm:space-y-2.5 text-white text-xs sm:text-sm">
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
-                    <a href="#" className="hover:text-[#21BFFF] transition">HOME</a>
+                    <a href="#" className="text-white hover:text-[#21BFFF] transition">HOME</a>
                   </li>
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
-                    <a href="#services" className="hover:text-[#21BFFF] transition">PORTFOLIO</a>
+                    <a href="#services" className="text-white hover:text-[#21BFFF] transition">PORTFOLIO</a>
                   </li>
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
-                    <a href="#services" className="hover:text-[#21BFFF] transition">SERVICES</a>
+                    <a href="#services" className="text-white hover:text-[#21BFFF] transition">SERVICES</a>
                   </li>
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
-                    <a href="#contact" className="hover:text-[#21BFFF] transition">CONTACT US</a>
+                    <a href="#contact" className="text-white hover:text-[#21BFFF] transition">CONTACT US</a>
                   </li>
                 </ul>
               </div>
 
               <div>
                 <h4 className="font-bold text-white text-sm sm:text-base mb-4">Contact Information</h4>
-                <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm">
+                <ul className="space-y-2 sm:space-y-3 text-white text-xs sm:text-sm">
                   <li className="flex gap-2 items-start">
                     <Mail className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
-                    <a href="mailto:hypernexis@gmail.com" className="text-[#21BFFF] hover:text-white transition">hypernexis@gmail.com</a>
+                    <a href="mailto:hypernexis@gmail.com" className="text-white hover:text-[#21BFFF] transition">hypernexis@gmail.com</a>
                   </li>
                   <li className="flex gap-2 items-start">
                     <MapPin className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
-                    <span className="text-[#21BFFF] text-xs">Raypid Mall Civic Govt Pvt, Peshawar, Punjab 35000</span>
+                    <span className="text-white text-xs">Raypid Mall Civic Govt Pvt, Peshawar, Punjab 35000</span>
                   </li>
                   <li className="flex gap-2 items-start">
                     <Phone className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
-                    <span className="text-[#21BFFF]">+923308314911</span>
+                    <span className="text-white">+923308314911</span>
                   </li>
                 </ul>
               </div>
@@ -394,7 +394,7 @@ export default function Index() {
           </div>
 
           <div className="border-t border-[#21BFFF]/20 pt-6 sm:pt-8">
-            <div className="flex flex-col sm:flex-row justify-between items-center text-gray-400 text-xs gap-4 sm:gap-6">
+            <div className="flex flex-col sm:flex-row justify-between items-center text-white text-xs gap-4 sm:gap-6">
               <p>&copy; 2024 Hypernexis, All Rights Reserved.</p>
               <div className="flex gap-3 sm:gap-4">
                 <a href="#" className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition">
