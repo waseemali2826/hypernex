@@ -285,8 +285,15 @@ export default function Index() {
       {/* Footer */}
       <footer
         id="contact"
-        className="border-t border-[#21BFFF]/20 py-12 sm:py-14 lg:py-16 px-3 sm:px-4 lg:px-8 mt-8 sm:mt-12 lg:mt-20"
+        className="border-t border-[#21BFFF]/20 py-12 sm:py-14 lg:py-16 px-3 sm:px-4 lg:px-8 mt-8 sm:mt-12 lg:mt-20 relative overflow-hidden"
+        style={{
+          backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fe9e10a04b7794adf91de2373eb63844c%2Fd8fb8e39730349a69a3d84222866c7e4?format=webp&width=800)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
       >
+        <div className="absolute inset-0 bg-black/70 -z-10" />
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 lg:gap-10 mb-8 sm:mb-10 lg:mb-12">
             <div>
