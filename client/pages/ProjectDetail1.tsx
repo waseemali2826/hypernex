@@ -1,9 +1,4 @@
-import {
-  Menu,
-  X,
-  Search,
-  ArrowRight,
-} from "lucide-react";
+import { Menu, X, Search, ArrowRight } from "lucide-react";
 import { useState } from "react";
 import PageFooter from "@/components/PageFooter";
 
@@ -132,25 +127,19 @@ export default function ProjectDetail1() {
               <h3 className="text-sm font-bold text-[#21BFFF] mb-3 tracking-widest">
                 PROJECT DETAILS
               </h3>
-              <p className="text-white text-sm">
-                Hollywood Hair Salon
-              </p>
+              <p className="text-white text-sm">Hollywood Hair Salon</p>
             </div>
             <div>
               <h3 className="text-sm font-bold text-[#21BFFF] mb-3 tracking-widest">
                 CLIENT
               </h3>
-              <p className="text-white text-sm">
-                Premium Hair Salon
-              </p>
+              <p className="text-white text-sm">Premium Hair Salon</p>
             </div>
             <div>
               <h3 className="text-sm font-bold text-[#21BFFF] mb-3 tracking-widest">
                 SERVICES
               </h3>
-              <p className="text-white text-sm">
-                Web Design, UI/UX
-              </p>
+              <p className="text-white text-sm">Web Design, UI/UX</p>
             </div>
           </div>
 
@@ -159,10 +148,16 @@ export default function ProjectDetail1() {
               About This Project
             </h2>
             <p className="text-gray-300 text-sm sm:text-base leading-relaxed mb-6">
-              Hollywood Hair Salon is a premium barber and salon service provider. We designed a modern, elegant website that showcases their services with a focus on user experience and conversion optimization.
+              Hollywood Hair Salon is a premium barber and salon service
+              provider. We designed a modern, elegant website that showcases
+              their services with a focus on user experience and conversion
+              optimization.
             </p>
             <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-              The design emphasizes their unique style and expertise while providing an intuitive booking system for customers. Every element was carefully crafted to reflect the premium nature of their services.
+              The design emphasizes their unique style and expertise while
+              providing an intuitive booking system for customers. Every element
+              was carefully crafted to reflect the premium nature of their
+              services.
             </p>
           </div>
         </div>

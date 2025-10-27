@@ -1,9 +1,4 @@
-import {
-  Menu,
-  X,
-  Search,
-  ArrowRight,
-} from "lucide-react";
+import { Menu, X, Search, ArrowRight } from "lucide-react";
 import { useState } from "react";
 import PageFooter from "@/components/PageFooter";
 
@@ -131,17 +126,13 @@ export default function ProjectDetail2() {
               <h3 className="text-sm font-bold text-[#21BFFF] mb-3 tracking-widest">
                 PROJECT DETAILS
               </h3>
-              <p className="text-white text-sm">
-                Modern House Property Portal
-              </p>
+              <p className="text-white text-sm">Modern House Property Portal</p>
             </div>
             <div>
               <h3 className="text-sm font-bold text-[#21BFFF] mb-3 tracking-widest">
                 CLIENT
               </h3>
-              <p className="text-white text-sm">
-                Real Estate Agency
-              </p>
+              <p className="text-white text-sm">Real Estate Agency</p>
             </div>
             <div>
               <h3 className="text-sm font-bold text-[#21BFFF] mb-3 tracking-widest">
@@ -158,10 +149,14 @@ export default function ProjectDetail2() {
               About This Project
             </h2>
             <p className="text-gray-300 text-sm sm:text-base leading-relaxed mb-6">
-              A comprehensive real estate portal showcasing modern residential properties. Our solution provides an intuitive interface for browsing properties, viewing detailed information, and contacting agents.
+              A comprehensive real estate portal showcasing modern residential
+              properties. Our solution provides an intuitive interface for
+              browsing properties, viewing detailed information, and contacting
+              agents.
             </p>
             <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-              The platform features advanced search filters, virtual tours, and a responsive design that works seamlessly across all devices.
+              The platform features advanced search filters, virtual tours, and
+              a responsive design that works seamlessly across all devices.
             </p>
           </div>
         </div>

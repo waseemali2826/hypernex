@@ -1,17 +1,12 @@
-import {
-  Facebook,
-  Linkedin,
-  Twitter,
-  Mail,
-  Phone,
-  MapPin,
-} from "lucide-react";
+import { Facebook, Linkedin, Twitter, Mail, Phone, MapPin } from "lucide-react";
 
 interface PageFooterProps {
   showBackgroundImage?: boolean;
 }
 
-export default function PageFooter({ showBackgroundImage = false }: PageFooterProps) {
+export default function PageFooter({
+  showBackgroundImage = false,
+}: PageFooterProps) {
   return (
     <footer
       className="border-t border-[#21BFFF]/20 py-12 sm:py-14 lg:py-16 px-3 sm:px-4 lg:px-8 mt-8 sm:mt-12 lg:mt-20 relative overflow-hidden"
@@ -27,7 +22,9 @@ export default function PageFooter({ showBackgroundImage = false }: PageFooterPr
           : {}
       }
     >
-      {showBackgroundImage && <div className="absolute inset-0 bg-black/70 -z-10" />}
+      {showBackgroundImage && (
+        <div className="absolute inset-0 bg-black/70 -z-10" />
+      )}
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 mb-8 sm:mb-10 lg:mb-12">
           {/* Left Section - Subscribe */}
@@ -40,8 +37,8 @@ export default function PageFooter({ showBackgroundImage = false }: PageFooterPr
               />
             </div>
             <p className="text-white text-xs sm:text-sm mb-6 leading-relaxed">
-              Hypernexis where innovation meets exceptional experiences. Join
-              us and elevate your online journey!
+              Hypernexis where innovation meets exceptional experiences. Join us
+              and elevate your online journey!
             </p>
 
             <div className="mb-6">

@@ -1,9 +1,4 @@
-import {
-  Menu,
-  X,
-  Search,
-  ArrowRight,
-} from "lucide-react";
+import { Menu, X, Search, ArrowRight } from "lucide-react";
 import { useState } from "react";
 import PageFooter from "@/components/PageFooter";
 
@@ -134,20 +129,23 @@ export default function Portfolio() {
               {
                 title: "Barber Salon",
                 description: "Make A Wish Style",
-                image: "https://cdn.builder.io/api/v1/image/assets%2F516737e8775e484aa78bfadffa78b91e%2Fc9d6eee60f574985816984a3cd73c2e1?format=webp&width=800",
+                image:
+                  "https://cdn.builder.io/api/v1/image/assets%2F516737e8775e484aa78bfadffa78b91e%2Fc9d6eee60f574985816984a3cd73c2e1?format=webp&width=800",
                 link: "/project-detail-1",
               },
               {
                 title: "Real Estate",
                 description: "Modern House",
                 price: "Rs. 100,000/month",
-                image: "https://images.unsplash.com/photo-1572120471610-3c643cdc7a0f?w=500&h=400&fit=crop",
+                image:
+                  "https://images.unsplash.com/photo-1572120471610-3c643cdc7a0f?w=500&h=400&fit=crop",
                 link: "/project-detail-2",
               },
               {
                 title: "Restaurant",
                 description: "We Offer Top Tastes",
-                image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=400&fit=crop",
+                image:
+                  "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=400&fit=crop",
                 link: "/portfolio",
               },
               {
@@ -155,19 +153,22 @@ export default function Portfolio() {
                 description: "Suzuki - 2021",
                 details: "4 People, 7.6km / 1-litre",
                 price: "8k/month",
-                image: "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=500&h=400&fit=crop",
+                image:
+                  "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=500&h=400&fit=crop",
                 link: "/portfolio",
               },
               {
                 title: "Accessories",
                 description: "Our Popular Items",
-                image: "https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=500&h=400&fit=crop",
+                image:
+                  "https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=500&h=400&fit=crop",
                 link: "/portfolio",
               },
               {
                 title: "Makeup",
                 description: "Z.B.U Makeup - About",
-                image: "https://images.unsplash.com/photo-1596462502278-af0a39d28b37?w=500&h=400&fit=crop",
+                image:
+                  "https://images.unsplash.com/photo-1596462502278-af0a39d28b37?w=500&h=400&fit=crop",
                 link: "/portfolio",
               },
             ].map((item, index) => (
