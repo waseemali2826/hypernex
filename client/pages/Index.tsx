@@ -71,8 +71,9 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-4 sm:gap-8 lg:gap-12 items-center">
             {/* Text Section */}
             <div className="hero-text-section">
-              <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-white mt-4 sm:mt-6 md:mt-10 mb-3 sm:mb-6 leading-tight">
-                Empowering your{" "}
+              <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest mb-4 sm:mb-6">* IT SOLUTIONS *</p>
+              <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-white mb-3 sm:mb-6 leading-tight">
+                Empowering Your{" "}
                 <span className="bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
                   Digital Vision
                 </span>
@@ -86,7 +87,7 @@ export default function Index() {
 
               <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 lg:gap-4">
                 <button className="bg-gradient-to-r from-[#21BFFF] to-[#570C95] text-white px-4 sm:px-6 lg:px-8 py-2 sm:py-2.5 lg:py-3 rounded-lg font-bold text-xs sm:text-sm lg:text-lg hover:shadow-xl hover:shadow-[#21BFFF]/50 transition flex items-center justify-center gap-2 group">
-                  Start Your Journey
+                  Book An Appointment
                   <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5 group-hover:translate-x-1 transition" />
                 </button>
               </div>
