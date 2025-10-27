@@ -28,7 +28,13 @@ export default function Index() {
       <header className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-[#21BFFF]/10">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
           <div className="flex items-center justify-between h-14 sm:h-16">
-            <span className="text-lg sm:text-xl font-bold text-white">HyperNexis</span>
+            <a href="#" className="flex items-center gap-2 hover:opacity-80 transition">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fe9e10a04b7794adf91de2373eb63844c%2Fa51a8a05eccd4a50b67a510563e49ad1?format=webp&width=800"
+                alt="HyperNexis logo"
+                className="h-10 sm:h-12 w-auto"
+              />
+            </a>
             <nav className="hidden md:flex items-center gap-6 lg:gap-8">
               <a href="#" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Home</a>
               <a href="#services" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Services</a>
