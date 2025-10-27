@@ -197,6 +197,33 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Stats Section */}
+      <section className="py-8 sm:py-12 lg:py-16 px-3 sm:px-4 lg:px-8">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 lg:gap-6">
+            {[
+              { number: "750+", label: "Finished Projects", icon: Award },
+              { number: "23+", label: "Created Jobs", icon: Users },
+              { number: "200+", label: "Happy Customers", icon: Rocket },
+              { number: "28+", label: "Years Of Experience", icon: Shield },
+            ].map((stat, index) => (
+              <div
+                key={index}
+                className="p-4 sm:p-6 lg:p-8 rounded-xl bg-[#221040]/50 border border-[#21BFFF]/20 text-center hover:border-[#21BFFF]/50 transition group"
+              >
+                <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-[#21BFFF] to-[#570C95] rounded-lg flex items-center justify-center mx-auto mb-3 sm:mb-4 group-hover:shadow-lg group-hover:shadow-[#21BFFF]/50 transition">
+                  <stat.icon className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
+                </div>
+                <p className="text-2xl sm:text-3xl lg:text-4xl font-black text-[#21BFFF] mb-2">
+                  {stat.number}
+                </p>
+                <p className="text-gray-400 text-xs sm:text-sm">{stat.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
       <section
         id="testimonials"
