@@ -234,8 +234,14 @@ export default function Index() {
       <section
         id="testimonials"
         className="py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-8 relative overflow-hidden"
+        style={{
+          backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fe9e10a04b7794adf91de2373eb63844c%2F8fba583c60d24e17a53fe53c675052a9?format=webp&width=800)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-[#570C95]/10 to-black -z-10" />
+        <div className="absolute inset-0 bg-black/70 -z-10" />
 
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
