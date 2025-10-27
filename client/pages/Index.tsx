@@ -52,7 +52,7 @@ export default function Index() {
                 Services
               </a>
               <a
-                href="/#portfolio"
+                href="/portfolio"
                 className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
                 Portfolio
