@@ -129,56 +129,68 @@ export default function Index() {
       <section id="services" className="py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-black text-white mb-2 sm:mb-3 lg:mb-4">
-              What We{" "}
-              <span className="bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
-                Offer
-              </span>
+            <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest mb-3 sm:mb-4">* SERVICES *</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-3 sm:mb-4 lg:mb-6">
+              Our Services
             </h2>
-            <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-gray-400 max-w-2xl mx-auto px-2">
-              Comprehensive digital marketing solutions tailored to your
-              business needs
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-400 max-w-2xl mx-auto px-2">
+              Comprehensive Services Designed to Elevate Your Brand!
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6">
             {[
               {
                 icon: Zap,
-                title: "SEO Optimization",
+                title: "Web Development",
                 description:
-                  "Boost your online visibility with our proven SEO strategies",
-              },
-              {
-                icon: Shield,
-                title: "Brand Protection",
-                description:
-                  "Safeguard your reputation with comprehensive brand monitoring",
+                  "Transform your ideas into stunning websites with our expert web development services. From sleek designs to seamless functionality, we bring your vision to life!",
               },
               {
                 icon: TrendingUp,
-                title: "Growth Marketing",
+                title: "Digital Marketing",
                 description:
-                  "Scale your business with data-driven marketing campaigns",
+                  "Transform your brand with our expert digital marketing expertise. We create impactful strategies that drive measurable results and target audience effectively!",
+              },
+              {
+                icon: Shield,
+                title: "Shopify/ E-Commerce",
+                description:
+                  "Create a stunning Shopify store that boosts sales. From intuitive design to seamless functionality, we transform your e-commerce vision to life!",
+              },
+              {
+                icon: Rocket,
+                title: "Apps Development",
+                description:
+                  "Craft intuitive and engaging mobile apps that enhance user experience and drive engagement. We turn your app vision into reality with cutting-edge technology and design!",
+              },
+              {
+                icon: Award,
+                title: "SEO Services",
+                description:
+                  "Elevate your website's ranking and attract targeted traffic with our SEO strategies. We optimize your online presence for sustainable growth!",
               },
               {
                 icon: Users,
-                title: "Social Management",
+                title: "Graphic Designing",
                 description:
-                  "Engage your audience across all social media platforms",
+                  "Create stunning visuals that capture attention and convey your message effectively. We transform your ideas into captivating designs that lasting impact!",
               },
             ].map((service, index) => (
               <div
                 key={index}
-                className="group p-4 sm:p-5 lg:p-6 rounded-xl bg-[#221040]/40/50 border border-[#21BFFF]/20 hover:border-[#21BFFF]/50 hover:bg-[#221040]/40/80 transition"
+                className="group p-5 sm:p-6 lg:p-7 rounded-xl bg-[#221040]/50 border border-[#21BFFF]/20 hover:border-[#21BFFF]/50 hover:bg-[#221040]/80 transition"
               >
-                <div className="w-10 sm:w-12 h-10 sm:h-12 bg-gradient-to-br from-[#21BFFF] to-[#570C95] rounded-lg flex items-center justify-center mb-3 sm:mb-4 group-hover:shadow-lg group-hover:shadow-[#21BFFF]/50 transition">
-                  <service.icon className="w-5 sm:w-6 h-5 sm:h-6 text-white" />
+                <div className="w-12 sm:w-14 h-12 sm:h-14 bg-gradient-to-br from-[#21BFFF] to-[#570C95] rounded-lg flex items-center justify-center mb-4 sm:mb-5 group-hover:shadow-lg group-hover:shadow-[#21BFFF]/50 transition">
+                  <service.icon className="w-6 sm:w-7 h-6 sm:h-7 text-white" />
                 </div>
-                <h3 className="text-base sm:text-lg font-bold text-white mb-2">
+                <h3 className="text-base sm:text-lg font-bold text-white mb-2 sm:mb-3">
                   {service.title}
                 </h3>
-                <p className="text-gray-400 text-xs sm:text-sm">{service.description}</p>
+                <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">{service.description}</p>
+                <a href="#" className="text-[#21BFFF] text-xs sm:text-sm font-semibold mt-3 inline-flex items-center gap-2 hover:gap-3 transition">
+                  Read More <ArrowRight className="w-3 h-3" />
+                </a>
               </div>
             ))}
           </div>
