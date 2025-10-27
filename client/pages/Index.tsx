@@ -227,65 +227,36 @@ export default function Index() {
       {/* Testimonials Section */}
       <section
         id="testimonials"
-        className="py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-8"
+        className="py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-8 relative overflow-hidden"
       >
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-[#570C95]/10 to-black -z-10" />
+
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-black text-white mb-2 sm:mb-3 lg:mb-4">
-              What Clients{" "}
-              <span className="bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
-                Say
-              </span>
+            <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest mb-3 sm:mb-4">* TESTIMONIALS *</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-3 sm:mb-4">
+              Customers Testimonials
             </h2>
-            <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-gray-400 max-w-2xl mx-auto px-2">
-              Success stories from businesses we've transformed
-            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
-            {[
-              {
-                name: "Sarah Johnson",
-                role: "CEO, Tech Innovations",
-                testimonial:
-                  "HyperNexis transformed our online presence. Our traffic increased by 350% in just 6 months!",
-                stars: 5,
-              },
-              {
-                name: "Michael Chen",
-                role: "Founder, E-Commerce Plus",
-                testimonial:
-                  "The team's expertise and dedication are unmatched. Our revenue has tripled since working with them.",
-                stars: 5,
-              },
-              {
-                name: "Emily Rodriguez",
-                role: "Marketing Director, Global Brands",
-                testimonial:
-                  "Professional, responsive, and results-driven. I highly recommend HyperNexis to any growing business.",
-                stars: 5,
-              },
-            ].map((testimonial, index) => (
-              <div
-                key={index}
-                className="p-4 sm:p-6 lg:p-8 rounded-xl bg-[#221040]/40/50 border border-[#21BFFF]/20 hover:border-[#21BFFF]/50 transition"
-              >
-                <div className="flex gap-1 mb-3 sm:mb-4">
-                  {Array.from({ length: testimonial.stars }).map((_, i) => (
-                    <span key={i} className="text-[#21BFFF] text-sm sm:text-base">
-                      ★
-                    </span>
+          <div className="max-w-3xl mx-auto">
+            <div className="relative">
+              <div className="p-8 sm:p-10 lg:p-12 rounded-xl bg-[#221040]/50 border border-[#21BFFF]/20 text-center">
+                <div className="flex justify-center mb-6">
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-[#21BFFF] to-[#570C95] flex items-center justify-center">
+                    <span className="text-2xl sm:text-3xl">😊</span>
+                  </div>
+                </div>
+                <p className="text-gray-300 text-sm sm:text-base lg:text-lg italic mb-6 sm:mb-8 leading-relaxed">
+                  "Hypernexis has transformed my online experience! Their services are top-notch and incredibly user-friendly."
+                </p>
+                <div className="flex justify-center gap-1 mb-6">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <span key={i} className="text-[#21BFFF] text-lg sm:text-xl">★</span>
                   ))}
                 </div>
-                <p className="text-gray-300 mb-4 sm:mb-6 italic text-sm sm:text-base">
-                  "{testimonial.testimonial}"
-                </p>
-                <div>
-                  <p className="font-bold text-white text-sm sm:text-base">{testimonial.name}</p>
-                  <p className="text-xs sm:text-sm text-[#21BFFF]">{testimonial.role}</p>
-                </div>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </section>
