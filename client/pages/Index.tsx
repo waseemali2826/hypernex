@@ -385,12 +385,18 @@ export default function Index() {
           </div>
 
           <div className="border-t border-[#21BFFF]/20 pt-6 sm:pt-8">
-            <div className="flex flex-col sm:flex-row justify-between items-center text-gray-400 text-xs sm:text-xs gap-3 sm:gap-4">
+            <div className="flex flex-col sm:flex-row justify-between items-center text-gray-400 text-xs gap-4 sm:gap-6">
               <p>&copy; 2024 Hypernexis, All Rights Reserved.</p>
-              <div className="flex gap-4 sm:gap-6">
-                <a href="#" className="hover:text-[#21BFFF] transition">LinkedIn</a>
-                <a href="#" className="hover:text-[#21BFFF] transition">Twitter</a>
-                <a href="#" className="hover:text-[#21BFFF] transition">Facebook</a>
+              <div className="flex gap-3 sm:gap-4">
+                <a href="#" className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition">
+                  <Facebook className="w-4 h-4" />
+                </a>
+                <a href="#" className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition">
+                  <Linkedin className="w-4 h-4" />
+                </a>
+                <a href="#" className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition">
+                  <Twitter className="w-4 h-4" />
+                </a>
               </div>
             </div>
           </div>
