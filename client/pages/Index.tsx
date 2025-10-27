@@ -285,127 +285,84 @@ export default function Index() {
       {/* Footer */}
       <footer
         id="contact"
-        className="border-t border-[#21BFFF]/20 py-8 sm:py-10 lg:py-12 px-3 sm:px-4 lg:px-8 mt-8 sm:mt-12 lg:mt-20"
+        className="border-t border-[#21BFFF]/20 py-12 sm:py-14 lg:py-16 px-3 sm:px-4 lg:px-8 mt-8 sm:mt-12 lg:mt-20"
       >
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 lg:gap-10 mb-8 sm:mb-10 lg:mb-12">
             <div>
-              <h4 className="text-base sm:text-lg font-bold text-white mb-2 sm:mb-3 lg:mb-4">
+              <h4 className="text-base sm:text-lg font-bold text-white mb-3 sm:mb-4 flex items-center gap-2">
+                <span className="w-8 h-8 bg-gradient-to-br from-[#21BFFF] to-[#570C95] rounded-lg flex items-center justify-center text-white text-sm font-bold">H</span>
                 HyperNexis
               </h4>
-              <p className="text-gray-400 text-xs sm:text-xs lg:text-sm">
-                Transforming businesses through digital excellence.
+              <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
+                Hypernexis where innovation meets exceptional expertise, we're redefining the digital experience for online success!
               </p>
             </div>
 
             <div>
-              <h4 className="font-bold text-white text-sm sm:text-base mb-2 sm:mb-3 lg:mb-4">Services</h4>
-              <ul className="space-y-1 sm:space-y-1.5 text-gray-400 text-xs sm:text-xs lg:text-sm">
-                <li>
-                  <a
-                    href="#services"
-                    className="hover:text-[#21BFFF] transition"
-                  >
-                    SEO Optimization
-                  </a>
+              <h4 className="font-bold text-white text-sm sm:text-base mb-4">Menus</h4>
+              <ul className="space-y-2 sm:space-y-2.5 text-gray-400 text-xs sm:text-sm">
+                <li><a href="#" className="hover:text-[#21BFFF] transition">HOME</a></li>
+                <li><a href="#services" className="hover:text-[#21BFFF] transition">PORTFOLIO</a></li>
+                <li><a href="#services" className="hover:text-[#21BFFF] transition">SERVICES</a></li>
+                <li><a href="#contact" className="hover:text-[#21BFFF] transition">CONTACT US</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-bold text-white text-sm sm:text-base mb-4">Find Us</h4>
+              <ul className="space-y-3 sm:space-y-4 text-gray-400 text-xs sm:text-sm">
+                <li className="flex gap-2 items-start">
+                  <Linkedin className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
+                  <span className="text-[#21BFFF]">LinkedIn</span>
                 </li>
-                <li>
-                  <a
-                    href="#services"
-                    className="hover:text-[#21BFFF] transition"
-                  >
-                    Social Media
-                  </a>
+                <li className="flex gap-2 items-start">
+                  <Facebook className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
+                  <span className="text-[#21BFFF]">Facebook</span>
                 </li>
-                <li>
-                  <a
-                    href="#services"
-                    className="hover:text-[#21BFFF] transition"
-                  >
-                    Content Marketing
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#services"
-                    className="hover:text-[#21BFFF] transition"
-                  >
-                    Brand Strategy
-                  </a>
+                <li className="flex gap-2 items-start">
+                  <Twitter className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
+                  <span className="text-[#21BFFF]">Instagram</span>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h4 className="font-bold text-white text-sm sm:text-base mb-2 sm:mb-3 lg:mb-4">Company</h4>
-              <ul className="space-y-1 sm:space-y-1.5 text-gray-400 text-xs sm:text-xs lg:text-sm">
-                <li>
-                  <a href="#" className="hover:text-[#21BFFF] transition">
-                    About Us
-                  </a>
+              <h4 className="font-bold text-white text-sm sm:text-base mb-4">Contact Information</h4>
+              <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm">
+                <li className="flex gap-2 items-start">
+                  <Mail className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
+                  <a href="mailto:hypernexis@gmail.com" className="text-[#21BFFF] hover:text-white transition">hypernexis@gmail.com</a>
                 </li>
-                <li>
-                  <a
-                    href="#testimonials"
-                    className="hover:text-[#21BFFF] transition"
-                  >
-                    Case Studies
-                  </a>
+                <li className="flex gap-2 items-start">
+                  <Phone className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
+                  <span className="text-[#21BFFF]">+923338314911</span>
                 </li>
-                <li>
-                  <a href="#" className="hover:text-[#21BFFF] transition">
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-[#21BFFF] transition">
-                    Careers
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-bold text-white text-sm sm:text-base mb-2 sm:mb-3 lg:mb-4">
-                Get In Touch
-              </h4>
-              <ul className="space-y-1 sm:space-y-1.5 text-gray-400 text-xs sm:text-xs lg:text-sm">
-                <li>
-                  Email:{" "}
-                  <span className="text-[#21BFFF]">hello@hypernexis.com</span>
-                </li>
-                <li>
-                  Phone:{" "}
-                  <span className="text-[#21BFFF]">+1 (555) 123-4567</span>
-                </li>
-                <li className="pt-4 flex gap-4">
-                  <a href="#" className="hover:text-[#21BFFF] transition">
-                    LinkedIn
-                  </a>
-                  <a href="#" className="hover:text-[#21BFFF] transition">
-                    Twitter
-                  </a>
-                  <a href="#" className="hover:text-[#21BFFF] transition">
-                    Facebook
-                  </a>
+                <li className="flex gap-2 items-start">
+                  <MapPin className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
+                  <span className="text-[#21BFFF]">Raypid Mall, Civic Govt Pvt, Peshawar, KP 25000</span>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="border-t border-[#21BFFF]/20 pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center text-gray-400 text-xs gap-2 sm:gap-0">
-            <p>&copy; 2024 HyperNexis. All rights reserved.</p>
-            <div className="flex gap-3 sm:gap-4 lg:gap-6 mt-3 sm:mt-0">
-              <a href="#" className="hover:text-[#21BFFF] transition text-xs sm:text-xs">
-                Privacy Policy
-              </a>
-              <a href="#" className="hover:text-[#21BFFF] transition text-xs sm:text-xs">
-                Terms of Service
-              </a>
+          <div className="border-t border-[#21BFFF]/20 pt-6 sm:pt-8">
+            <div className="flex flex-col sm:flex-row justify-between items-center text-gray-400 text-xs sm:text-xs gap-3 sm:gap-4">
+              <p>&copy; 2024 Hypernexis, All Rights Reserved.</p>
+              <div className="flex gap-4 sm:gap-6">
+                <a href="#" className="hover:text-[#21BFFF] transition">LinkedIn</a>
+                <a href="#" className="hover:text-[#21BFFF] transition">Twitter</a>
+                <a href="#" className="hover:text-[#21BFFF] transition">Facebook</a>
+              </div>
             </div>
           </div>
         </div>
       </footer>
+
+      {/* Floating Action Button */}
+      <button className="fixed bottom-6 right-6 w-12 h-12 bg-gradient-to-r from-[#21BFFF] to-[#570C95] rounded-full flex items-center justify-center text-white hover:shadow-xl hover:shadow-[#21BFFF]/50 transition z-40">
+        <ArrowRight className="w-5 h-5 rotate-90" />
+      </button>
     </div>
   );
 }
