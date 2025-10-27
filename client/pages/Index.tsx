@@ -305,8 +305,11 @@ export default function Index() {
             {/* Left Section - Subscribe */}
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <span className="w-8 h-8 bg-gradient-to-br from-[#21BFFF] to-[#570C95] rounded-lg flex items-center justify-center text-white text-sm font-bold">H</span>
-                <span className="font-bold text-white">HyperNexis</span>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fe9e10a04b7794adf91de2373eb63844c%2Fa51a8a05eccd4a50b67a510563e49ad1?format=webp&width=800"
+                  alt="HyperNexis logo"
+                  className="h-8 sm:h-10 w-auto"
+                />
               </div>
               <p className="text-gray-300 text-xs sm:text-sm mb-6 leading-relaxed">
                 Hypernexis where innovation meets exceptional experiences. Join us and elevate your online journey!
