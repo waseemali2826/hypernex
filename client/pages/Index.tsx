@@ -243,7 +243,7 @@ export default function Index() {
       >
         <div className="absolute inset-0 bg-black/70 -z-10" />
 
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto relative z-10">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
             <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest mb-3 sm:mb-4">* TESTIMONIALS *</p>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-3 sm:mb-4">
