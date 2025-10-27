@@ -294,7 +294,7 @@ export default function Index() {
         }}
       >
         <div className="absolute inset-0 bg-black/70 -z-10" />
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto relative z-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 lg:gap-10 mb-8 sm:mb-10 lg:mb-12">
             <div>
               <h4 className="text-base sm:text-lg font-bold text-white mb-3 sm:mb-4 flex items-center gap-2">
