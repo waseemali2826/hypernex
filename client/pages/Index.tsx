@@ -295,61 +295,92 @@ export default function Index() {
       >
         <div className="absolute inset-0 bg-black/70 -z-10" />
         <div className="max-w-6xl mx-auto relative z-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 lg:gap-10 mb-8 sm:mb-10 lg:mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 mb-8 sm:mb-10 lg:mb-12">
+            {/* Left Section - Subscribe */}
             <div>
-              <h4 className="text-base sm:text-lg font-bold text-white mb-3 sm:mb-4 flex items-center gap-2">
+              <div className="flex items-center gap-2 mb-4">
                 <span className="w-8 h-8 bg-gradient-to-br from-[#21BFFF] to-[#570C95] rounded-lg flex items-center justify-center text-white text-sm font-bold">H</span>
-                HyperNexis
-              </h4>
-              <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-                Hypernexis where innovation meets exceptional expertise, we're redefining the digital experience for online success!
+                <span className="font-bold text-white">HyperNexis</span>
+              </div>
+              <p className="text-gray-300 text-xs sm:text-sm mb-6 leading-relaxed">
+                Hypernexis where innovation meets exceptional experiences. Join us and elevate your online journey!
               </p>
+
+              <div className="mb-6">
+                <h4 className="font-bold text-white text-sm mb-3">Subscribe For More</h4>
+                <div className="flex gap-2">
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    className="flex-1 px-3 py-2 text-xs sm:text-sm bg-gray-700/50 text-white placeholder-gray-400 rounded border border-gray-600 focus:border-[#21BFFF] focus:outline-none transition"
+                  />
+                  <button className="px-4 py-2 bg-[#21BFFF] text-black font-bold text-xs sm:text-sm rounded hover:bg-[#21BFFF]/90 transition">
+                    Subscribe
+                  </button>
+                </div>
+                <p className="text-gray-400 text-xs mt-2">*We Will Not Share Your Personal Info</p>
+              </div>
             </div>
 
-            <div>
-              <h4 className="font-bold text-white text-sm sm:text-base mb-4">Menus</h4>
-              <ul className="space-y-2 sm:space-y-2.5 text-gray-400 text-xs sm:text-sm">
-                <li><a href="#" className="hover:text-[#21BFFF] transition">HOME</a></li>
-                <li><a href="#services" className="hover:text-[#21BFFF] transition">PORTFOLIO</a></li>
-                <li><a href="#services" className="hover:text-[#21BFFF] transition">SERVICES</a></li>
-                <li><a href="#contact" className="hover:text-[#21BFFF] transition">CONTACT US</a></li>
-              </ul>
-            </div>
+            {/* Right Section - 3 Columns */}
+            <div className="grid grid-cols-3 gap-4 sm:gap-6">
+              <div>
+                <h4 className="font-bold text-white text-sm sm:text-base mb-4">Find Us</h4>
+                <ul className="space-y-2 sm:space-y-3 text-gray-400 text-xs sm:text-sm">
+                  <li className="flex gap-2 items-center">
+                    <Linkedin className="w-4 h-4 text-[#21BFFF] flex-shrink-0" />
+                    <span className="text-[#21BFFF]">LinkedIn</span>
+                  </li>
+                  <li className="flex gap-2 items-center">
+                    <Facebook className="w-4 h-4 text-[#21BFFF] flex-shrink-0" />
+                    <span className="text-[#21BFFF]">Facebook</span>
+                  </li>
+                  <li className="flex gap-2 items-center">
+                    <Twitter className="w-4 h-4 text-[#21BFFF] flex-shrink-0" />
+                    <span className="text-[#21BFFF]">Instagram</span>
+                  </li>
+                </ul>
+              </div>
 
-            <div>
-              <h4 className="font-bold text-white text-sm sm:text-base mb-4">Find Us</h4>
-              <ul className="space-y-3 sm:space-y-4 text-gray-400 text-xs sm:text-sm">
-                <li className="flex gap-2 items-start">
-                  <Linkedin className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
-                  <span className="text-[#21BFFF]">LinkedIn</span>
-                </li>
-                <li className="flex gap-2 items-start">
-                  <Facebook className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
-                  <span className="text-[#21BFFF]">Facebook</span>
-                </li>
-                <li className="flex gap-2 items-start">
-                  <Twitter className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
-                  <span className="text-[#21BFFF]">Instagram</span>
-                </li>
-              </ul>
-            </div>
+              <div>
+                <h4 className="font-bold text-white text-sm sm:text-base mb-4">Menus</h4>
+                <ul className="space-y-2 sm:space-y-2.5 text-gray-400 text-xs sm:text-sm">
+                  <li className="flex gap-2">
+                    <span className="text-[#21BFFF]">-</span>
+                    <a href="#" className="hover:text-[#21BFFF] transition">HOME</a>
+                  </li>
+                  <li className="flex gap-2">
+                    <span className="text-[#21BFFF]">-</span>
+                    <a href="#services" className="hover:text-[#21BFFF] transition">PORTFOLIO</a>
+                  </li>
+                  <li className="flex gap-2">
+                    <span className="text-[#21BFFF]">-</span>
+                    <a href="#services" className="hover:text-[#21BFFF] transition">SERVICES</a>
+                  </li>
+                  <li className="flex gap-2">
+                    <span className="text-[#21BFFF]">-</span>
+                    <a href="#contact" className="hover:text-[#21BFFF] transition">CONTACT US</a>
+                  </li>
+                </ul>
+              </div>
 
-            <div>
-              <h4 className="font-bold text-white text-sm sm:text-base mb-4">Contact Information</h4>
-              <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm">
-                <li className="flex gap-2 items-start">
-                  <Mail className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
-                  <a href="mailto:hypernexis@gmail.com" className="text-[#21BFFF] hover:text-white transition">hypernexis@gmail.com</a>
-                </li>
-                <li className="flex gap-2 items-start">
-                  <Phone className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
-                  <span className="text-[#21BFFF]">+923338314911</span>
-                </li>
-                <li className="flex gap-2 items-start">
-                  <MapPin className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
-                  <span className="text-[#21BFFF]">Raypid Mall, Civic Govt Pvt, Peshawar, KP 25000</span>
-                </li>
-              </ul>
+              <div>
+                <h4 className="font-bold text-white text-sm sm:text-base mb-4">Contact Information</h4>
+                <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm">
+                  <li className="flex gap-2 items-start">
+                    <Mail className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
+                    <a href="mailto:hypernexis@gmail.com" className="text-[#21BFFF] hover:text-white transition">hypernexis@gmail.com</a>
+                  </li>
+                  <li className="flex gap-2 items-start">
+                    <MapPin className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
+                    <span className="text-[#21BFFF] text-xs">Raypid Mall Civic Govt Pvt, Peshawar, Punjab 35000</span>
+                  </li>
+                  <li className="flex gap-2 items-start">
+                    <Phone className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
+                    <span className="text-[#21BFFF]">+923308314911</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
 
