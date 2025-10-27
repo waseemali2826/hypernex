@@ -126,11 +126,11 @@ export default function ContactUs() {
 
       {/* Page Title */}
       <div className="pt-24 sm:pt-28 lg:pt-32 pb-8 sm:pb-12 lg:pb-16 px-3 sm:px-4 lg:px-8 border-b border-[#21BFFF]/20">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white mb-4">
             Contact Us
           </h1>
-          <div className="flex items-center gap-2 text-gray-400">
+          <div className="flex items-center justify-center gap-2 text-gray-400">
             <a href="/" className="hover:text-[#21BFFF] transition">
               Home
             </a>
