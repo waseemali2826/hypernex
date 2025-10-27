@@ -450,7 +450,7 @@ export default function Index() {
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
                     <a
-                      href="#services"
+                      href="/portfolio"
                       className="text-white hover:text-[#21BFFF] transition"
                     >
                       PORTFOLIO
