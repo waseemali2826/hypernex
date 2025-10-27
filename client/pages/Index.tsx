@@ -40,25 +40,25 @@ export default function Index() {
             </a>
             <nav className="hidden md:flex items-center gap-6 lg:gap-8">
               <a
-                href="#"
+                href="/"
                 className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
                 Home
               </a>
               <a
-                href="#services"
+                href="/#services"
                 className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
                 Services
               </a>
               <a
-                href="#portfolio"
+                href="/#portfolio"
                 className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
                 Portfolio
               </a>
               <a
-                href="#contact"
+                href="/contact-us"
                 className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
                 Contact Us
@@ -84,25 +84,25 @@ export default function Index() {
           {mobileMenuOpen && (
             <nav className="md:hidden flex flex-col gap-3 pb-4 border-t border-[#21BFFF]/10 pt-4">
               <a
-                href="#"
+                href="/"
                 className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
                 Home
               </a>
               <a
-                href="#services"
+                href="/#services"
                 className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
                 Services
               </a>
               <a
-                href="#portfolio"
+                href="/#portfolio"
                 className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
                 Portfolio
               </a>
               <a
-                href="#contact"
+                href="/contact-us"
                 className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
                 Contact Us
@@ -468,7 +468,7 @@ export default function Index() {
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
                     <a
-                      href="#contact"
+                      href="/contact-us"
                       className="text-white hover:text-[#21BFFF] transition"
                     >
                       CONTACT US
