@@ -262,21 +262,21 @@ export default function Index() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-8 relative">
+      <section className="py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-8 relative" id="portfolio">
         <div className="absolute inset-0 bg-gradient-to-r from-[#21BFFF]/10 to-[#570C95]/10 rounded-3xl blur-3xl" />
 
         <div className="max-w-4xl mx-auto relative z-10 text-center px-2">
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-black text-white mb-3 sm:mb-4 lg:mb-6">
-            Ready to Transform Your{" "}
-            <span className="bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
-              Business?
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-3 sm:mb-4 lg:mb-6">
+            Let's Work Together To Make Your Business
+            <span className="block bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
+              Successful!
             </span>
           </h2>
-          <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-gray-300 mb-4 sm:mb-6 lg:mb-8">
+          <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-300 mb-6 sm:mb-8 lg:mb-10">
             Join 500+ successful brands that are already growing with HyperNexis
           </p>
-          <button className="bg-gradient-to-r from-[#21BFFF] to-[#570C95] text-black px-4 sm:px-8 lg:px-10 py-2 sm:py-3 lg:py-4 rounded-lg font-bold text-xs sm:text-sm lg:text-lg hover:shadow-xl hover:shadow-[#21BFFF]/50 transition flex items-center justify-center gap-2 group mx-auto">
-            Start Your Free Consultation
+          <button className="bg-gradient-to-r from-[#21BFFF] to-[#570C95] text-white px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 lg:py-3 rounded-lg font-bold text-xs sm:text-sm lg:text-base hover:shadow-xl hover:shadow-[#21BFFF]/50 transition flex items-center justify-center gap-2 group mx-auto">
+            Get Started Today
             <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5 group-hover:translate-x-1 transition" />
           </button>
         </div>
