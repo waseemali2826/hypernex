@@ -28,7 +28,10 @@ export default function Index() {
       <header className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-[#21BFFF]/10">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
           <div className="flex items-center justify-between h-14 sm:h-16">
-            <a href="#" className="flex items-center gap-2 hover:opacity-80 transition">
+            <a
+              href="#"
+              className="flex items-center gap-2 hover:opacity-80 transition"
+            >
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fe9e10a04b7794adf91de2373eb63844c%2Fa51a8a05eccd4a50b67a510563e49ad1?format=webp&width=800"
                 alt="HyperNexis logo"
@@ -36,10 +39,30 @@ export default function Index() {
               />
             </a>
             <nav className="hidden md:flex items-center gap-6 lg:gap-8">
-              <a href="#" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Home</a>
-              <a href="#services" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Services</a>
-              <a href="#portfolio" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Portfolio</a>
-              <a href="#contact" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Contact Us</a>
+              <a
+                href="#"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
+                Home
+              </a>
+              <a
+                href="#services"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
+                Services
+              </a>
+              <a
+                href="#portfolio"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
+                Portfolio
+              </a>
+              <a
+                href="#contact"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
+                Contact Us
+              </a>
             </nav>
             <div className="flex items-center gap-3">
               <button className="hidden sm:flex p-2 hover:text-[#21BFFF] transition">
@@ -50,16 +73,40 @@ export default function Index() {
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className="md:hidden p-2 text-gray-300 hover:text-[#21BFFF]"
               >
-                {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+                {mobileMenuOpen ? (
+                  <X className="w-5 h-5" />
+                ) : (
+                  <Menu className="w-5 h-5" />
+                )}
               </button>
             </div>
           </div>
           {mobileMenuOpen && (
             <nav className="md:hidden flex flex-col gap-3 pb-4 border-t border-[#21BFFF]/10 pt-4">
-              <a href="#" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Home</a>
-              <a href="#services" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Services</a>
-              <a href="#portfolio" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Portfolio</a>
-              <a href="#contact" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">Contact Us</a>
+              <a
+                href="#"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
+                Home
+              </a>
+              <a
+                href="#services"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
+                Services
+              </a>
+              <a
+                href="#portfolio"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
+                Portfolio
+              </a>
+              <a
+                href="#contact"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
+                Contact Us
+              </a>
             </nav>
           )}
         </div>
@@ -77,7 +124,9 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-4 sm:gap-8 lg:gap-12 items-center">
             {/* Text Section */}
             <div className="hero-text-section">
-              <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest mb-4 sm:mb-6">* IT SOLUTIONS *</p>
+              <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest mb-4 sm:mb-6">
+                * IT SOLUTIONS *
+              </p>
               <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-white mb-3 sm:mb-6 leading-tight">
                 Empowering Your{" "}
                 <span className="bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
@@ -132,10 +181,15 @@ export default function Index() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-8">
+      <section
+        id="services"
+        className="py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-8"
+      >
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-            <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest mb-3 sm:mb-4">* SERVICES *</p>
+            <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest mb-3 sm:mb-4">
+              * SERVICES *
+            </p>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-3 sm:mb-4 lg:mb-6">
               Our Services
             </h2>
@@ -193,8 +247,13 @@ export default function Index() {
                 <h3 className="text-base sm:text-lg font-bold text-white mb-2 sm:mb-3">
                   {service.title}
                 </h3>
-                <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">{service.description}</p>
-                <a href="#" className="text-[#21BFFF] text-xs sm:text-sm font-semibold mt-3 inline-flex items-center gap-2 hover:gap-3 transition">
+                <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
+                  {service.description}
+                </p>
+                <a
+                  href="#"
+                  className="text-[#21BFFF] text-xs sm:text-sm font-semibold mt-3 inline-flex items-center gap-2 hover:gap-3 transition"
+                >
                   Read More <ArrowRight className="w-3 h-3" />
                 </a>
               </div>
@@ -235,17 +294,20 @@ export default function Index() {
         id="testimonials"
         className="py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-8 relative overflow-hidden"
         style={{
-          backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fe9e10a04b7794adf91de2373eb63844c%2F8fba583c60d24e17a53fe53c675052a9?format=webp&width=800)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundAttachment: 'fixed'
+          backgroundImage:
+            "url(https://cdn.builder.io/api/v1/image/assets%2Fe9e10a04b7794adf91de2373eb63844c%2F8fba583c60d24e17a53fe53c675052a9?format=webp&width=800)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundAttachment: "fixed",
         }}
       >
         <div className="absolute inset-0 bg-black/70 -z-10" />
 
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-            <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest mb-3 sm:mb-4">* TESTIMONIALS *</p>
+            <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest mb-3 sm:mb-4">
+              * TESTIMONIALS *
+            </p>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-3 sm:mb-4">
               Customers Testimonials
             </h2>
@@ -260,11 +322,14 @@ export default function Index() {
                   </div>
                 </div>
                 <p className="text-gray-300 text-sm sm:text-base lg:text-lg italic mb-6 sm:mb-8 leading-relaxed">
-                  "Hypernexis has transformed my online experience! Their services are top-notch and incredibly user-friendly."
+                  "Hypernexis has transformed my online experience! Their
+                  services are top-notch and incredibly user-friendly."
                 </p>
                 <div className="flex justify-center gap-1 mb-6">
                   {Array.from({ length: 5 }).map((_, i) => (
-                    <span key={i} className="text-[#21BFFF] text-lg sm:text-xl">★</span>
+                    <span key={i} className="text-[#21BFFF] text-lg sm:text-xl">
+                      ★
+                    </span>
                   ))}
                 </div>
               </div>
@@ -274,7 +339,10 @@ export default function Index() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-8 relative" id="portfolio">
+      <section
+        className="py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-8 relative"
+        id="portfolio"
+      >
         <div className="absolute inset-0 bg-gradient-to-r from-[#21BFFF]/10 to-[#570C95]/10 rounded-3xl blur-3xl" />
 
         <div className="max-w-4xl mx-auto relative z-10 text-center px-2">
@@ -299,10 +367,11 @@ export default function Index() {
         id="contact"
         className="border-t border-[#21BFFF]/20 py-12 sm:py-14 lg:py-16 px-3 sm:px-4 lg:px-8 mt-8 sm:mt-12 lg:mt-20 relative overflow-hidden"
         style={{
-          backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fe9e10a04b7794adf91de2373eb63844c%2Fd8fb8e39730349a69a3d84222866c7e4?format=webp&width=800)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundAttachment: 'fixed'
+          backgroundImage:
+            "url(https://cdn.builder.io/api/v1/image/assets%2Fe9e10a04b7794adf91de2373eb63844c%2Fd8fb8e39730349a69a3d84222866c7e4?format=webp&width=800)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundAttachment: "fixed",
         }}
       >
         <div className="absolute inset-0 bg-black/70 -z-10" />
@@ -318,11 +387,14 @@ export default function Index() {
                 />
               </div>
               <p className="text-white text-xs sm:text-sm mb-6 leading-relaxed">
-                Hypernexis where innovation meets exceptional experiences. Join us and elevate your online journey!
+                Hypernexis where innovation meets exceptional experiences. Join
+                us and elevate your online journey!
               </p>
 
               <div className="mb-6">
-                <h4 className="font-bold text-white text-sm mb-3">Subscribe For More</h4>
+                <h4 className="font-bold text-white text-sm mb-3">
+                  Subscribe For More
+                </h4>
                 <div className="flex gap-2">
                   <input
                     type="email"
@@ -333,14 +405,18 @@ export default function Index() {
                     Subscribe
                   </button>
                 </div>
-                <p className="text-white text-xs mt-2">*We Will Not Share Your Personal Info</p>
+                <p className="text-white text-xs mt-2">
+                  *We Will Not Share Your Personal Info
+                </p>
               </div>
             </div>
 
             {/* Right Section - 3 Columns */}
             <div className="grid grid-cols-3 gap-4 sm:gap-6">
               <div>
-                <h4 className="font-bold text-white text-sm sm:text-base mb-4">Find Us</h4>
+                <h4 className="font-bold text-white text-sm sm:text-base mb-4">
+                  Find Us
+                </h4>
                 <ul className="space-y-2 sm:space-y-3 text-white text-xs sm:text-sm">
                   <li className="flex gap-2 items-center">
                     <Linkedin className="w-4 h-4 text-[#21BFFF] flex-shrink-0" />
@@ -358,37 +434,68 @@ export default function Index() {
               </div>
 
               <div>
-                <h4 className="font-bold text-white text-sm sm:text-base mb-4">Menus</h4>
+                <h4 className="font-bold text-white text-sm sm:text-base mb-4">
+                  Menus
+                </h4>
                 <ul className="space-y-2 sm:space-y-2.5 text-white text-xs sm:text-sm">
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
-                    <a href="#" className="text-white hover:text-[#21BFFF] transition">HOME</a>
+                    <a
+                      href="#"
+                      className="text-white hover:text-[#21BFFF] transition"
+                    >
+                      HOME
+                    </a>
                   </li>
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
-                    <a href="#services" className="text-white hover:text-[#21BFFF] transition">PORTFOLIO</a>
+                    <a
+                      href="#services"
+                      className="text-white hover:text-[#21BFFF] transition"
+                    >
+                      PORTFOLIO
+                    </a>
                   </li>
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
-                    <a href="#services" className="text-white hover:text-[#21BFFF] transition">SERVICES</a>
+                    <a
+                      href="#services"
+                      className="text-white hover:text-[#21BFFF] transition"
+                    >
+                      SERVICES
+                    </a>
                   </li>
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
-                    <a href="#contact" className="text-white hover:text-[#21BFFF] transition">CONTACT US</a>
+                    <a
+                      href="#contact"
+                      className="text-white hover:text-[#21BFFF] transition"
+                    >
+                      CONTACT US
+                    </a>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h4 className="font-bold text-white text-sm sm:text-base mb-4">Contact Information</h4>
+                <h4 className="font-bold text-white text-sm sm:text-base mb-4">
+                  Contact Information
+                </h4>
                 <ul className="space-y-2 sm:space-y-3 text-white text-xs sm:text-sm">
                   <li className="flex gap-2 items-start">
                     <Mail className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
-                    <a href="mailto:hypernexis@gmail.com" className="text-white hover:text-[#21BFFF] transition">hypernexis@gmail.com</a>
+                    <a
+                      href="mailto:hypernexis@gmail.com"
+                      className="text-white hover:text-[#21BFFF] transition"
+                    >
+                      hypernexis@gmail.com
+                    </a>
                   </li>
                   <li className="flex gap-2 items-start">
                     <MapPin className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
-                    <span className="text-white text-xs">Raypid Mall Civic Govt Pvt, Peshawar, Punjab 35000</span>
+                    <span className="text-white text-xs">
+                      Raypid Mall Civic Govt Pvt, Peshawar, Punjab 35000
+                    </span>
                   </li>
                   <li className="flex gap-2 items-start">
                     <Phone className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
@@ -403,13 +510,22 @@ export default function Index() {
             <div className="flex flex-col sm:flex-row justify-between items-center text-white text-xs gap-4 sm:gap-6">
               <p>&copy; 2024 Hypernexis, All Rights Reserved.</p>
               <div className="flex gap-3 sm:gap-4">
-                <a href="#" className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition">
+                <a
+                  href="#"
+                  className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition"
+                >
                   <Facebook className="w-4 h-4" />
                 </a>
-                <a href="#" className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition">
+                <a
+                  href="#"
+                  className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition"
+                >
                   <Linkedin className="w-4 h-4" />
                 </a>
-                <a href="#" className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition">
+                <a
+                  href="#"
+                  className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition"
+                >
                   <Twitter className="w-4 h-4" />
                 </a>
               </div>

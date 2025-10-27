@@ -22,7 +22,7 @@ export default function ContactUs() {
   });
 
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -43,7 +43,10 @@ export default function ContactUs() {
       <header className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-[#21BFFF]/10">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
           <div className="flex items-center justify-between h-14 sm:h-16">
-            <a href="/" className="flex items-center gap-2 hover:opacity-80 transition">
+            <a
+              href="/"
+              className="flex items-center gap-2 hover:opacity-80 transition"
+            >
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fe9e10a04b7794adf91de2373eb63844c%2Fa51a8a05eccd4a50b67a510563e49ad1?format=webp&width=800"
                 alt="HyperNexis logo"
@@ -51,13 +54,22 @@ export default function ContactUs() {
               />
             </a>
             <nav className="hidden md:flex items-center gap-6 lg:gap-8">
-              <a href="/" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">
+              <a
+                href="/"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
                 Home
               </a>
-              <a href="/#services" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">
+              <a
+                href="/#services"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
                 Services
               </a>
-              <a href="/#portfolio" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">
+              <a
+                href="/#portfolio"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
                 Portfolio
               </a>
               <a href="/contact-us" className="text-sm text-[#21BFFF]">
@@ -73,22 +85,38 @@ export default function ContactUs() {
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className="md:hidden p-2 text-gray-300 hover:text-[#21BFFF]"
               >
-                {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+                {mobileMenuOpen ? (
+                  <X className="w-5 h-5" />
+                ) : (
+                  <Menu className="w-5 h-5" />
+                )}
               </button>
             </div>
           </div>
           {mobileMenuOpen && (
             <nav className="md:hidden flex flex-col gap-3 pb-4 border-t border-[#21BFFF]/10 pt-4">
-              <a href="/" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">
+              <a
+                href="/"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
                 Home
               </a>
-              <a href="/#services" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">
+              <a
+                href="/#services"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
                 Services
               </a>
-              <a href="/#portfolio" className="text-sm text-gray-300 hover:text-[#21BFFF] transition">
+              <a
+                href="/#portfolio"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
                 Portfolio
               </a>
-              <a href="/contact-us" className="text-sm text-[#21BFFF] transition">
+              <a
+                href="/contact-us"
+                className="text-sm text-[#21BFFF] transition"
+              >
                 Contact Us
               </a>
             </nav>
@@ -271,11 +299,14 @@ export default function ContactUs() {
                 />
               </div>
               <p className="text-white text-xs sm:text-sm mb-6 leading-relaxed">
-                Hypernexis where innovation meets exceptional experiences. Join us and elevate your online journey!
+                Hypernexis where innovation meets exceptional experiences. Join
+                us and elevate your online journey!
               </p>
 
               <div className="mb-6">
-                <h4 className="font-bold text-white text-sm mb-3">Subscribe For More</h4>
+                <h4 className="font-bold text-white text-sm mb-3">
+                  Subscribe For More
+                </h4>
                 <div className="flex gap-2">
                   <input
                     type="email"
@@ -286,14 +317,18 @@ export default function ContactUs() {
                     Subscribe
                   </button>
                 </div>
-                <p className="text-white text-xs mt-2">*We Will Not Share Your Personal Info</p>
+                <p className="text-white text-xs mt-2">
+                  *We Will Not Share Your Personal Info
+                </p>
               </div>
             </div>
 
             {/* Right Section - 3 Columns */}
             <div className="grid grid-cols-3 gap-4 sm:gap-6">
               <div>
-                <h4 className="font-bold text-white text-sm sm:text-base mb-4">Find Us</h4>
+                <h4 className="font-bold text-white text-sm sm:text-base mb-4">
+                  Find Us
+                </h4>
                 <ul className="space-y-2 sm:space-y-3 text-white text-xs sm:text-sm">
                   <li className="flex gap-2 items-center">
                     <Linkedin className="w-4 h-4 text-[#21BFFF] flex-shrink-0" />
@@ -311,29 +346,43 @@ export default function ContactUs() {
               </div>
 
               <div>
-                <h4 className="font-bold text-white text-sm sm:text-base mb-4">Menus</h4>
+                <h4 className="font-bold text-white text-sm sm:text-base mb-4">
+                  Menus
+                </h4>
                 <ul className="space-y-2 sm:space-y-2.5 text-white text-xs sm:text-sm">
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
-                    <a href="/" className="text-white hover:text-[#21BFFF] transition">
+                    <a
+                      href="/"
+                      className="text-white hover:text-[#21BFFF] transition"
+                    >
                       HOME
                     </a>
                   </li>
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
-                    <a href="/#services" className="text-white hover:text-[#21BFFF] transition">
+                    <a
+                      href="/#services"
+                      className="text-white hover:text-[#21BFFF] transition"
+                    >
                       PORTFOLIO
                     </a>
                   </li>
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
-                    <a href="/#services" className="text-white hover:text-[#21BFFF] transition">
+                    <a
+                      href="/#services"
+                      className="text-white hover:text-[#21BFFF] transition"
+                    >
                       SERVICES
                     </a>
                   </li>
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
-                    <a href="/contact-us" className="text-white hover:text-[#21BFFF] transition">
+                    <a
+                      href="/contact-us"
+                      className="text-white hover:text-[#21BFFF] transition"
+                    >
                       CONTACT US
                     </a>
                   </li>
@@ -341,17 +390,24 @@ export default function ContactUs() {
               </div>
 
               <div>
-                <h4 className="font-bold text-white text-sm sm:text-base mb-4">Contact Information</h4>
+                <h4 className="font-bold text-white text-sm sm:text-base mb-4">
+                  Contact Information
+                </h4>
                 <ul className="space-y-2 sm:space-y-3 text-white text-xs sm:text-sm">
                   <li className="flex gap-2 items-start">
                     <Mail className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
-                    <a href="mailto:hypernexis@gmail.com" className="text-white hover:text-[#21BFFF] transition">
+                    <a
+                      href="mailto:hypernexis@gmail.com"
+                      className="text-white hover:text-[#21BFFF] transition"
+                    >
                       hypernexis@gmail.com
                     </a>
                   </li>
                   <li className="flex gap-2 items-start">
                     <MapPin className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
-                    <span className="text-white text-xs">Raypid Mall Civic Govt Pvt, Peshawar, Punjab 35000</span>
+                    <span className="text-white text-xs">
+                      Raypid Mall Civic Govt Pvt, Peshawar, Punjab 35000
+                    </span>
                   </li>
                   <li className="flex gap-2 items-start">
                     <Phone className="w-4 h-4 text-[#21BFFF] flex-shrink-0 mt-0.5" />
@@ -366,13 +422,22 @@ export default function ContactUs() {
             <div className="flex flex-col sm:flex-row justify-between items-center text-white text-xs gap-4 sm:gap-6">
               <p>&copy; 2024 Hypernexis, All Rights Reserved.</p>
               <div className="flex gap-3 sm:gap-4">
-                <a href="#" className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition">
+                <a
+                  href="#"
+                  className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition"
+                >
                   <Facebook className="w-4 h-4" />
                 </a>
-                <a href="#" className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition">
+                <a
+                  href="#"
+                  className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition"
+                >
                   <Linkedin className="w-4 h-4" />
                 </a>
-                <a href="#" className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition">
+                <a
+                  href="#"
+                  className="w-8 h-8 bg-[#21BFFF]/20 rounded flex items-center justify-center text-[#21BFFF] hover:bg-[#21BFFF] hover:text-black transition"
+                >
                   <Twitter className="w-4 h-4" />
                 </a>
               </div>
