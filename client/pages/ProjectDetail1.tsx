@@ -143,6 +143,33 @@ export default function ProjectDetail1() {
             </div>
           </div>
 
+          {/* Project Objective Section */}
+          <div className="grid md:grid-cols-3 gap-8 sm:gap-10 mb-12 items-start">
+            <div className="md:col-span-2">
+              <h2 className="text-2xl sm:text-3xl font-black text-white mb-4">Project Objective</h2>
+              <p className="text-gray-300 text-sm sm:text-base mb-4">
+                The Hollywood Hair Saloon website should therefore be a contemporary, easy-to-use website that shows the services , the stylists, and the saloon’s uniqueness.
+              </p>
+              <p className="text-gray-300 text-sm sm:text-base">
+                Our goal was that the website would center around the client's experience by using a clean, easy-to-follow layout with all their focus on booking and offers and sales. This would be very essential in achieving aesthetic design as well as functionality in trying to summarize the brand of the saloon.
+              </p>
+            </div>
+            <div className="space-y-4">
+              <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11]">
+                <h4 className="text-xs text-[#21BFFF] font-bold tracking-widest mb-2">CLIENT</h4>
+                <p className="text-white font-semibold">Muhammad Ali</p>
+              </div>
+              <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11]">
+                <h4 className="text-xs text-[#21BFFF] font-bold tracking-widest mb-2">CATEGORY</h4>
+                <p className="text-white font-semibold">Web Development</p>
+              </div>
+              <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11]">
+                <h4 className="text-xs text-[#21BFFF] font-bold tracking-widest mb-2">DATE</h4>
+                <p className="text-white font-semibold">30/1/2022</p>
+              </div>
+            </div>
+          </div>
+
           <div className="border-t border-[#21BFFF]/20 pt-12">
             <h2 className="text-3xl sm:text-4xl font-black text-white mb-6">
               About This Project
