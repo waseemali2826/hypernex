@@ -1,4 +1,4 @@
-import { Menu, X, Search, ArrowRight } from "lucide-react";
+import { Menu, X, Search, ArrowRight, Facebook, Linkedin, Twitter } from "lucide-react";
 import { useState } from "react";
 import PageFooter from "@/components/PageFooter";
 
@@ -174,6 +174,21 @@ export default function ProjectDetail1() {
               <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11]">
                 <h4 className="text-xs text-[#21BFFF] font-bold tracking-widest mb-2">DATE</h4>
                 <p className="text-white font-semibold">30/1/2022</p>
+              </div>
+
+              <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11]">
+                <h4 className="text-xs text-[#21BFFF] font-bold tracking-widest mb-2">SHARE</h4>
+                <div className="flex items-center gap-3">
+                  <a href="#" aria-label="Share on Facebook" className="w-9 h-9 bg-[#21BFFF] rounded flex items-center justify-center text-black hover:opacity-90 transition">
+                    <Facebook className="w-4 h-4" />
+                  </a>
+                  <a href="#" aria-label="Share on Twitter" className="w-9 h-9 bg-[#21BFFF] rounded flex items-center justify-center text-black hover:opacity-90 transition">
+                    <Twitter className="w-4 h-4" />
+                  </a>
+                  <a href="#" aria-label="Share on LinkedIn" className="w-9 h-9 bg-[#21BFFF] rounded flex items-center justify-center text-black hover:opacity-90 transition">
+                    <Linkedin className="w-4 h-4" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
