@@ -137,13 +137,6 @@ export default function ProjectDetail1() {
           </div>
 
 
-          {/* Contact Hero (image only - no text or extra image) */}
-          // <section className="relative mt-12">
-          //   <div className="h-64 sm:h-80 lg:h-96 w-full bg-center bg-cover" style={{backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F8807df7998a84f258f0490e44a46724f?format=webp&width=1600)"}}>
-          //     <div className="absolute inset-0 bg-black/50" />
-          //   </div>
-          // </section>
-
           {/* Image above footer added per user request */}
           <div className="mt-8 -mx-3 sm:-mx-4 lg:-mx-8">
             <img
