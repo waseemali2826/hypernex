@@ -1,5 +1,5 @@
-import { Menu, X, Search, ArrowRight, Facebook, Linkedin, Twitter } from "lucide-react";
 import { useState } from "react";
+import { Menu, X, Search, ArrowRight, Facebook, Linkedin, Twitter } from "lucide-react";
 import PageFooter from "@/components/PageFooter";
 
 export default function ProjectDetail1() {
