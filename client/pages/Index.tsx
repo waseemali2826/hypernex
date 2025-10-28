@@ -12,6 +12,7 @@ import {
   Facebook,
   Linkedin,
   Twitter,
+  Instagram,
   Mail,
   Phone,
   MapPin,
@@ -124,11 +125,28 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-4 sm:gap-8 lg:gap-12 items-center">
             {/* Text Section */}
             <div className="hero-text-section">
-              <div className="flex items-center gap-3 mb-4 sm:mb-6">
-                
-                <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest">
-                  * IT SOLUTIONS *
-                </p>
+              <div className="mb-4 sm:mb-6">
+                <div className="flex items-center gap-3 mb-2">
+                  <a href="#" className="text-[#21BFFF] hover:text-white transition">
+                    <Facebook className="w-5 h-5" />
+                  </a>
+                  <a href="#" className="text-[#21BFFF] hover:text-white transition">
+                    <Linkedin className="w-5 h-5" />
+                  </a>
+                  <a href="#" className="text-[#21BFFF] hover:text-white transition">
+                    <Instagram className="w-5 h-5" />
+                  </a>
+                </div>
+                <div className="flex items-center gap-3">
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Fedb7985f0fbe4a51bfd05920236f42d3?format=webp&width=800"
+                    alt="IT solutions icon"
+                    className="w-8 h-8 sm:w-10 sm:h-10 object-contain"
+                  />
+                  <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest">
+                    * IT SOLUTIONS *
+                  </p>
+                </div>
               </div>
               <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-white mb-3 sm:mb-6 leading-tight">
                 Empowering Your{" "}
