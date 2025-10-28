@@ -163,9 +163,12 @@ export default function ProjectDetail1() {
               </div>
             </div>
             <div className="space-y-4">
-              <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] h-24 flex flex-col justify-center">
-                <h4 className="text-xs text-[#21BFFF] font-bold tracking-widest mb-2">CLIENT</h4>
-                <p className="text-white font-semibold">Muhammad Ali</p>
+              <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] h-24 flex items-center justify-between">
+                <div>
+                  <h4 className="text-xs text-[#21BFFF] font-bold tracking-widest mb-2">CLIENT</h4>
+                  <p className="text-white font-semibold">Muhammad Ali</p>
+                </div>
+                <img src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F267c974ddb794f108f26c541e61109ba?format=webp&width=800" alt="client icon" className="w-9 h-9 object-contain" />
               </div>
               <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] h-24 flex flex-col justify-center">
                 <h4 className="text-xs text-[#21BFFF] font-bold tracking-widest mb-2">CATEGORY</h4>
