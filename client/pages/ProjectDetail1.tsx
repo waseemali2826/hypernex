@@ -190,24 +190,39 @@ export default function ProjectDetail1() {
         </div>
       </section>
 
-      {/* Related Projects CTA */}
-      <section className="py-12 sm:py-16 lg:py-20 px-3 sm:px-4 lg:px-8 relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#21BFFF]/10 to-[#570C95]/10 rounded-3xl blur-3xl" />
-        <div className="max-w-4xl mx-auto relative z-10 text-center px-2">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-4 sm:mb-6">
-            Ready To Start Your Project?
-          </h2>
-          <p className="text-sm sm:text-base text-gray-300 mb-8">
-            Let's create something amazing together
-          </p>
-          <a
-            href="/contact-us"
-            className="inline-block px-6 sm:px-8 py-2.5 sm:py-3 bg-gradient-to-r from-[#21BFFF] to-[#570C95] text-white font-bold text-sm sm:text-base rounded-lg hover:shadow-xl hover:shadow-[#21BFFF]/50 transition flex items-center justify-center gap-2 group mx-auto w-fit"
-          >
-            Get In Touch
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition" />
-          </a>
+      {/* Contact Hero (replaces 'Ready To Start Your Project?') */}
+      <section className="relative">
+        <div
+          className="h-64 sm:h-80 lg:h-96 w-full bg-center bg-cover flex items-center"
+          style={{
+            backgroundImage:
+              "url(https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F8807df7998a84f258f0490e44a46724f?format=webp&width=1600)",
+          }}
+        >
+          <div className="absolute inset-0 bg-black/50" />
+          <div className="max-w-4xl mx-auto relative z-10 text-center px-4">
+            <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest mb-2">
+              * CONTACT US *
+            </p>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-4">
+              Get In Totch With Us
+            </h2>
+            <p className="text-sm sm:text-base text-gray-300 mb-6">
+              Whether You Have A Question, Need Assistance, Or Want To Discuss A Project, Feel Free To Reach Out. We'd Love To Hear From You!
+            </p>
+            <a
+              href="/contact-us"
+              className="inline-block px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg border border-white/30 text-white font-bold text-sm sm:text-base hover:bg-white/10 transition"
+            >
+              Contact Us
+            </a>
+          </div>
         </div>
+
+        {/* Optional full-width image below the hero */}
+        <div className="w-full h-40 sm:h-56 lg:h-72 bg-center bg-cover mt-4 rounded-b-lg" style={{
+          backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F9b232e2ffe6b4740be2fe1008e8c9dcb?format=webp&width=1600)",
+        }} />
       </section>
 
       <PageFooter showBackgroundImage={false} />
