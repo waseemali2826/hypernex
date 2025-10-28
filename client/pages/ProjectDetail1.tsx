@@ -147,7 +147,7 @@ export default function ProjectDetail1() {
         </div>
       </section>
 
-      <PageFooter showBackgroundImage={false} />
+      <PageFooter showBackgroundImage={true} />
 
       {/* Floating Action Button */}
       <button className="fixed bottom-6 right-6 w-12 h-12 bg-gradient-to-r from-[#21BFFF] to-[#570C95] rounded-full flex items-center justify-center text-white hover:shadow-xl hover:shadow-[#21BFFF]/50 transition z-40">
