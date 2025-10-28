@@ -24,91 +24,21 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-black scroll-smooth">
+
       {/* Header */}
-      <header className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-[#21BFFF]/10">
+      <header className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
           <div className="flex items-center justify-between h-14 sm:h-16">
-            <a
-              href="#"
-              className="flex items-center gap-2 hover:opacity-80 transition"
-            >
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fe9e10a04b7794adf91de2373eb63844c%2Fa51a8a05eccd4a50b67a510563e49ad1?format=webp&width=800"
-                alt="HyperNexis logo"
-                className="h-10 sm:h-12 w-auto"
-              />
-            </a>
-            <nav className="hidden md:flex items-center gap-6 lg:gap-8">
+            <span className="text-lg sm:text-xl font-bold text-white">HyperNexis</span>
+            <nav className="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-4 sm:gap-8">
               <a
-                href="/"
-                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+                href="#"
+                className="text-xs sm:text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
                 Home
               </a>
-              <a
-                href="/#services"
-                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
-              >
-                Services
-              </a>
-              <a
-                href="/portfolio"
-                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
-              >
-                Portfolio
-              </a>
-              <a
-                href="/contact-us"
-                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
-              >
-                Contact Us
-              </a>
             </nav>
-            <div className="flex items-center gap-3">
-              <button className="hidden sm:flex p-2 hover:text-[#21BFFF] transition">
-                <Search className="w-5 h-5 text-gray-300" />
-              </button>
-              <button className="hidden sm:flex w-10 h-10 rounded-lg bg-[#221040] border border-[#21BFFF]/20 items-center justify-center hover:border-[#21BFFF]/50 transition" />
-              <button
-                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="md:hidden p-2 text-gray-300 hover:text-[#21BFFF]"
-              >
-                {mobileMenuOpen ? (
-                  <X className="w-5 h-5" />
-                ) : (
-                  <Menu className="w-5 h-5" />
-                )}
-              </button>
-            </div>
           </div>
-          {mobileMenuOpen && (
-            <nav className="md:hidden flex flex-col gap-3 pb-4 border-t border-[#21BFFF]/10 pt-4">
-              <a
-                href="/"
-                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
-              >
-                Home
-              </a>
-              <a
-                href="/#services"
-                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
-              >
-                Services
-              </a>
-              <a
-                href="/portfolio"
-                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
-              >
-                Portfolio
-              </a>
-              <a
-                href="/contact-us"
-                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
-              >
-                Contact Us
-              </a>
-            </nav>
-          )}
         </div>
       </header>
 
@@ -124,11 +54,8 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-4 sm:gap-8 lg:gap-12 items-center">
             {/* Text Section */}
             <div className="hero-text-section">
-              <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest mb-4 sm:mb-6">
-                * IT SOLUTIONS *
-              </p>
-              <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-white mb-3 sm:mb-6 leading-tight">
-                Empowering Your{" "}
+              <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-white mt-4 sm:mt-6 md:mt-10 mb-3 sm:mb-6 leading-tight">
+                Empowering your{" "}
                 <span className="bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
                   Digital Vision
                 </span>
@@ -142,7 +69,7 @@ export default function Index() {
 
               <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 lg:gap-4">
                 <button className="bg-gradient-to-r from-[#21BFFF] to-[#570C95] text-white px-4 sm:px-6 lg:px-8 py-2 sm:py-2.5 lg:py-3 rounded-lg font-bold text-xs sm:text-sm lg:text-lg hover:shadow-xl hover:shadow-[#21BFFF]/50 transition flex items-center justify-center gap-2 group">
-                  Book An Appointment
+                  Start Your Journey
                   <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5 group-hover:translate-x-1 transition" />
                 </button>
               </div>
@@ -166,23 +93,6 @@ export default function Index() {
                   </p>
                 </div>
               </div>
-
-              {/* Image under Fun Facts / Happy Clients */}
-              <div className="mt-8 flex justify-center">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Fedc8659797b04427bf074cf1327423c1?format=webp&width=1200"
-                  alt="Fun facts illustrative"
-                  className="w-full max-w-4xl rounded-lg object-cover shadow-md"
-                />
-              </div>
-
-              {/* Project Results Section (under the image) */}
-              <div className="mt-10 max-w-4xl mx-auto text-center px-4">
-                <h2 className="text-2xl sm:text-3xl font-black text-white mb-4">Project Results</h2>
-                <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-                  The final product was a sleek, professional website that elevated Hollywood Hair Saloon's online presence. It helped attract new clients, facilitate seamless bookings, and give the salon an edge in this competitive beauty industry. There was increased engagement and satisfaction on both sides when the salon received positive feedback from the clients.
-                </p>
-              </div>
             </div>
 
             {/* Image Section */}
@@ -196,89 +106,6 @@ export default function Index() {
           </div>
         </div>
       </section>
-
-      {/* Services Section */}
-      <section
-        id="services"
-        className="py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-8"
-      >
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-            <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest mb-3 sm:mb-4">
-              * SERVICES *
-            </p>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-3 sm:mb-4 lg:mb-6">
-              Our Services
-            </h2>
-            <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-400 max-w-2xl mx-auto px-2">
-              Comprehensive Services Designed to Elevate Your Brand!
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6">
-            {[
-              {
-                icon: Zap,
-                title: "Web Development",
-                description:
-                  "Transform your ideas into stunning websites with our expert web development services. From sleek designs to seamless functionality, we bring your vision to life!",
-              },
-              {
-                icon: TrendingUp,
-                title: "Digital Marketing",
-                description:
-                  "Transform your brand with our expert digital marketing expertise. We create impactful strategies that drive measurable results and target audience effectively!",
-              },
-              {
-                icon: Shield,
-                title: "Shopify/ E-Commerce",
-                description:
-                  "Create a stunning Shopify store that boosts sales. From intuitive design to seamless functionality, we transform your e-commerce vision to life!",
-              },
-              {
-                icon: Rocket,
-                title: "Apps Development",
-                description:
-                  "Craft intuitive and engaging mobile apps that enhance user experience and drive engagement. We turn your app vision into reality with cutting-edge technology and design!",
-              },
-              {
-                icon: Award,
-                title: "SEO Services",
-                description:
-                  "Elevate your website's ranking and attract targeted traffic with our SEO strategies. We optimize your online presence for sustainable growth!",
-              },
-              {
-                icon: Users,
-                title: "Graphic Designing",
-                description:
-                  "Create stunning visuals that capture attention and convey your message effectively. We transform your ideas into captivating designs that lasting impact!",
-              },
-            ].map((service, index) => (
-              <div
-                key={index}
-                className="group p-5 sm:p-6 lg:p-7 rounded-xl bg-[#221040]/50 border border-[#21BFFF]/20 hover:border-[#21BFFF]/50 hover:bg-[#221040]/80 transition"
-              >
-                <div className="w-12 sm:w-14 h-12 sm:h-14 bg-gradient-to-br from-[#21BFFF] to-[#570C95] rounded-lg flex items-center justify-center mb-4 sm:mb-5 group-hover:shadow-lg group-hover:shadow-[#21BFFF]/50 transition">
-                  <service.icon className="w-6 sm:w-7 h-6 sm:h-7 text-white" />
-                </div>
-                <h3 className="text-base sm:text-lg font-bold text-white mb-2 sm:mb-3">
-                  {service.title}
-                </h3>
-                <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-                  {service.description}
-                </p>
-                <a
-                  href="#"
-                  className="text-[#21BFFF] text-xs sm:text-sm font-semibold mt-3 inline-flex items-center gap-2 hover:gap-3 transition"
-                >
-                  Read More <ArrowRight className="w-3 h-3" />
-                </a>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Stats Section */}
       <section className="py-8 sm:py-12 lg:py-16 px-3 sm:px-4 lg:px-8">
         <div className="max-w-6xl mx-auto">
