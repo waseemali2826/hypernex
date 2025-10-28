@@ -136,25 +136,6 @@ export default function ProjectDetail1() {
             </div>
           </div>
 
-          <div className="border-t border-[#21BFFF]/20 pt-12">
-            <h2 className="text-3xl sm:text-4xl font-black text-white mb-6">About This Project</h2>
-
-            <p className="text-gray-300 text-sm sm:text-base leading-relaxed mb-6">
-              Hollywood Hair Salon is a premium barber and salon service provider. We designed a modern, elegant website that showcases their services with a focus on user experience and conversion optimization.
-            </p>
-            <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-              The design emphasizes their unique style and expertise while providing an intuitive booking system for customers. Every element was carefully crafted to reflect the premium nature of their services.
-            </p>
-
-            {/* Brand summary and image requested by user */}
-            <div className="mt-8">
-              <h3 className="text-xl sm:text-2xl font-bold text-white mb-3">Brand Summary</h3>
-              <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-                Hollywood Hair Salon is positioned as an upscale, customer-focused salon that blends modern aesthetics with professional grooming expertise. Its brand emphasizes premium service, attention to detail, and a stylish atmosphere designed to make clients feel confident and well cared for.
-              </p>
-
-            </div>
-          </div>
 
           {/* Contact Hero (image only - no text or extra image) */}
           <section className="relative mt-12">
