@@ -166,6 +166,15 @@ export default function Index() {
                   </p>
                 </div>
               </div>
+
+              {/* Image under Fun Facts / Happy Clients */}
+              <div className="mt-8 flex justify-center">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Fedc8659797b04427bf074cf1327423c1?format=webp&width=1200"
+                  alt="Fun facts illustrative"
+                  className="w-full max-w-4xl rounded-lg object-cover shadow-md"
+                />
+              </div>
             </div>
 
             {/* Image Section */}
