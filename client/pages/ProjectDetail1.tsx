@@ -186,6 +186,26 @@ export default function ProjectDetail1() {
               was carefully crafted to reflect the premium nature of their
               services.
             </p>
+
+            {/* Brand summary and image requested by user */}
+            <div className="mt-8">
+              <h3 className="text-xl sm:text-2xl font-bold text-white mb-3">Brand Summary</h3>
+              <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
+                Hollywood Hair Salon is positioned as an upscale, customer-focused
+                salon that blends modern aesthetics with professional grooming
+                expertise. Its brand emphasizes premium service, attention to
+                detail, and a stylish atmosphere designed to make clients feel
+                confident and well cared for.
+              </p>
+
+              <div className="mt-6 flex justify-center">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Fccf05ee3093d460e8bc4c51dffa4ff8c?format=webp&width=800"
+                  alt="Hollywood Hair Salon brand"
+                  className="w-full max-w-2xl rounded-lg object-cover shadow-lg"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
