@@ -145,11 +145,11 @@ export default function ProjectDetail1() {
           </section>
 
           {/* Image above footer added per user request */}
-          <div className="mt-8">
+          <div className="mt-8 -mx-3 sm:-mx-4 lg:-mx-8">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Fda1eed8f2e82464491c34bd756078adc?format=webp&width=1600"
               alt="Decorative before footer"
-              className="w-full h-[500px] sm:h-[600px] lg:h-[700px] object-cover shadow-md"
+              className="w-full h-[350px] sm:h-[420px] lg:h-[480px] object-cover shadow-md"
             />
           </div>
 
