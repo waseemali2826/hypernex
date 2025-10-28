@@ -153,6 +153,14 @@ export default function ProjectDetail1() {
               <p className="text-gray-300 text-sm sm:text-base">
                 Our goal was that the website would center around the client's experience by using a clean, easy-to-follow layout with all their focus on booking and offers and sales. This would be very essential in achieving aesthetic design as well as functionality in trying to summarize the brand of the saloon.
               </p>
+
+              <div className="mt-6 flex justify-center">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Fccf05ee3093d460e8bc4c51dffa4ff8c?format=webp&width=800"
+                  alt="Project objective illustrative"
+                  className="w-full max-w-2xl rounded-lg object-cover shadow-md"
+                />
+              </div>
             </div>
             <div className="space-y-4">
               <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11]">
