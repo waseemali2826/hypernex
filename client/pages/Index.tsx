@@ -175,6 +175,14 @@ export default function Index() {
                   className="w-full max-w-4xl rounded-lg object-cover shadow-md"
                 />
               </div>
+
+              {/* Project Results Section (under the image) */}
+              <div className="mt-10 max-w-4xl mx-auto text-center px-4">
+                <h2 className="text-2xl sm:text-3xl font-black text-white mb-4">Project Results</h2>
+                <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
+                  The final product was a sleek, professional website that elevated Hollywood Hair Saloon's online presence. It helped attract new clients, facilitate seamless bookings, and give the salon an edge in this competitive beauty industry. There was increased engagement and satisfaction on both sides when the salon received positive feedback from the clients.
+                </p>
+              </div>
             </div>
 
             {/* Image Section */}
