@@ -138,14 +138,14 @@ export default function Portfolio() {
                 description: "Modern House",
                 price: "Rs. 100,000/month",
                 image:
-                  "https://images.unsplash.com/photo-1572120471610-3c643cdc7a0f?w=500&h=400&fit=crop",
+                  "https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Ff602f7468bbf473cb8bb0167fc2733f0?format=webp&width=800",
                 link: "/project-detail-2",
               },
               {
                 title: "Restaurant",
                 description: "We Offer Top Tastes",
                 image:
-                  "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=400&fit=crop",
+                  "https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Fb35560f5b2c04d95bbe2f7006b57e248?format=webp&width=800",
                 link: "/portfolio",
               },
               {
@@ -154,21 +154,21 @@ export default function Portfolio() {
                 details: "4 People, 7.6km / 1-litre",
                 price: "8k/month",
                 image:
-                  "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=500&h=400&fit=crop",
+                  "https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F951cd71545fe4e01a3ba8fde36966822?format=webp&width=800",
                 link: "/portfolio",
               },
               {
                 title: "Accessories",
                 description: "Our Popular Items",
                 image:
-                  "https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=500&h=400&fit=crop",
+                  "https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F6fab5f65743f44a0a873b314d5e249bb?format=webp&width=800",
                 link: "/portfolio",
               },
               {
                 title: "Makeup",
                 description: "Z.B.U Makeup - About",
                 image:
-                  "https://images.unsplash.com/photo-1596462502278-af0a39d28b37?w=500&h=400&fit=crop",
+                  "https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F8223faf2a93940378db05c60eb65dc0f?format=webp&width=800",
                 link: "/portfolio",
               },
             ].map((item, index) => (

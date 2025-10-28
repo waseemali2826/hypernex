@@ -1,5 +1,13 @@
-import { Menu, X, Search, ArrowRight } from "lucide-react";
 import { useState } from "react";
+import {
+  Menu,
+  X,
+  Search,
+  ArrowRight,
+  Facebook,
+  Linkedin,
+  Twitter,
+} from "lucide-react";
 import PageFooter from "@/components/PageFooter";
 
 export default function ProjectDetail1() {
@@ -143,47 +151,127 @@ export default function ProjectDetail1() {
             </div>
           </div>
 
-          <div className="border-t border-[#21BFFF]/20 pt-12">
-            <h2 className="text-3xl sm:text-4xl font-black text-white mb-6">
-              About This Project
-            </h2>
-            <p className="text-gray-300 text-sm sm:text-base leading-relaxed mb-6">
-              Hollywood Hair Salon is a premium barber and salon service
-              provider. We designed a modern, elegant website that showcases
-              their services with a focus on user experience and conversion
-              optimization.
-            </p>
-            <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-              The design emphasizes their unique style and expertise while
-              providing an intuitive booking system for customers. Every element
-              was carefully crafted to reflect the premium nature of their
-              services.
-            </p>
+          {/* Project Objective Section */}
+          <div className="grid md:grid-cols-3 gap-8 sm:gap-10 mb-12 items-start">
+            <div className="md:col-span-2">
+              <h2 className="text-2xl sm:text-3xl font-black text-white mb-4">
+                Project Objective
+              </h2>
+              <p className="text-gray-300 text-sm sm:text-base mb-4">
+                The Hollywood Hair Saloon website should therefore be a
+                contemporary, easy-to-use website that shows the services , the
+                stylists, and the saloon’s uniqueness.
+              </p>
+              <p className="text-gray-300 text-sm sm:text-base">
+                Our goal was that the website would center around the client's
+                experience by using a clean, easy-to-follow layout with all
+                their focus on booking and offers and sales. This would be very
+                essential in achieving aesthetic design as well as functionality
+                in trying to summarize the brand of the saloon.
+              </p>
+
+              <div className="mt-6 flex justify-center">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Fccf05ee3093d460e8bc4c51dffa4ff8c?format=webp&width=800"
+                  alt="Project objective illustrative"
+                  className="w-full max-w-2xl rounded-lg object-cover shadow-md"
+                />
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] h-24 flex items-center justify-between">
+                <div>
+                  <h4 className="text-xs text-[#21BFFF] font-bold tracking-widest mb-2">
+                    CLIENT
+                  </h4>
+                  <p className="text-white font-semibold">Muhammad Ali</p>
+                </div>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Fea76f77b8c3b4ac880da4afd19194acb?format=webp&width=800"
+                  alt="client icon"
+                  className="w-9 h-9 object-contain"
+                />
+              </div>
+
+              <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] h-24 flex items-center justify-between">
+                <div>
+                  <h4 className="text-xs text-[#21BFFF] font-bold tracking-widest mb-2">
+                    CATEGORY
+                  </h4>
+                  <p className="text-white font-semibold">Web Development</p>
+                </div>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F82c793dd8589407e8afff40a5b3d9ee7?format=webp&width=800"
+                  alt="category icon"
+                  className="w-9 h-9 object-contain"
+                />
+              </div>
+
+              <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] h-24 flex items-center justify-between">
+                <div>
+                  <h4 className="text-xs text-[#21BFFF] font-bold tracking-widest mb-2">
+                    DATE
+                  </h4>
+                  <p className="text-white font-semibold">30/1/2022</p>
+                </div>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F1237f4c6048441a49591a0be39ca1571?format=webp&width=800"
+                  alt="date icon"
+                  className="w-9 h-9 object-contain"
+                />
+              </div>
+
+              <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] h-24 flex items-center justify-between">
+                <div>
+                  <h4 className="text-xs text-[#21BFFF] font-bold tracking-widest mb-2">
+                    SHARE
+                  </h4>
+                  <div className="flex items-center gap-3">
+                    <a
+                      href="#"
+                      aria-label="Share on Facebook"
+                      className="w-9 h-9 bg-[#21BFFF] rounded flex items-center justify-center text-black hover:opacity-90 transition"
+                    >
+                      <Facebook className="w-4 h-4" />
+                    </a>
+                    <a
+                      href="#"
+                      aria-label="Share on Twitter"
+                      className="w-9 h-9 bg-[#21BFFF] rounded flex items-center justify-center text-black hover:opacity-90 transition"
+                    >
+                      <Twitter className="w-4 h-4" />
+                    </a>
+                    <a
+                      href="#"
+                      aria-label="Share on LinkedIn"
+                      className="w-9 h-9 bg-[#21BFFF] rounded flex items-center justify-center text-black hover:opacity-90 transition"
+                    >
+                      <Linkedin className="w-4 h-4" />
+                    </a>
+                  </div>
+                </div>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F09d909defc3a4fb5bace43a7ccac7dbc?format=webp&width=800"
+                  alt="share icon"
+                  className="w-9 h-9 object-contain"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Image above footer added per user request */}
+          <div className="mt-8 -mx-3 sm:-mx-4 lg:-mx-8">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Fda1eed8f2e82464491c34bd756078adc?format=webp&width=1600"
+              alt="Decorative before footer"
+              className="w-full h-[350px] sm:h-[420px] lg:h-[480px] object-cover shadow-md"
+            />
           </div>
         </div>
       </section>
 
-      {/* Related Projects CTA */}
-      <section className="py-12 sm:py-16 lg:py-20 px-3 sm:px-4 lg:px-8 relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#21BFFF]/10 to-[#570C95]/10 rounded-3xl blur-3xl" />
-        <div className="max-w-4xl mx-auto relative z-10 text-center px-2">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-4 sm:mb-6">
-            Ready To Start Your Project?
-          </h2>
-          <p className="text-sm sm:text-base text-gray-300 mb-8">
-            Let's create something amazing together
-          </p>
-          <a
-            href="/contact-us"
-            className="inline-block px-6 sm:px-8 py-2.5 sm:py-3 bg-gradient-to-r from-[#21BFFF] to-[#570C95] text-white font-bold text-sm sm:text-base rounded-lg hover:shadow-xl hover:shadow-[#21BFFF]/50 transition flex items-center justify-center gap-2 group mx-auto w-fit"
-          >
-            Get In Touch
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition" />
-          </a>
-        </div>
-      </section>
-
-      <PageFooter showBackgroundImage={false} />
+      <PageFooter showBackgroundImage={true} />
 
       {/* Floating Action Button */}
       <button className="fixed bottom-6 right-6 w-12 h-12 bg-gradient-to-r from-[#21BFFF] to-[#570C95] rounded-full flex items-center justify-center text-white hover:shadow-xl hover:shadow-[#21BFFF]/50 transition z-40">
