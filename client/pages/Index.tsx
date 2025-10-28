@@ -127,13 +127,22 @@ export default function Index() {
             <div className="hero-text-section">
               <div className="mb-4 sm:mb-6">
                 <div className="flex items-center gap-3 mb-2">
-                  <a href="#" className="text-[#21BFFF] hover:text-white transition">
+                  <a
+                    href="#"
+                    className="text-[#21BFFF] hover:text-white transition"
+                  >
                     <Facebook className="w-5 h-5" />
                   </a>
-                  <a href="#" className="text-[#21BFFF] hover:text-white transition">
+                  <a
+                    href="#"
+                    className="text-[#21BFFF] hover:text-white transition"
+                  >
                     <Linkedin className="w-5 h-5" />
                   </a>
-                  <a href="#" className="text-[#21BFFF] hover:text-white transition">
+                  <a
+                    href="#"
+                    className="text-[#21BFFF] hover:text-white transition"
+                  >
                     <Instagram className="w-5 h-5" />
                   </a>
                 </div>
