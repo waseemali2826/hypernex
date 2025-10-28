@@ -200,7 +200,7 @@ export default function ProjectDetail1() {
                     </a>
                   </div>
                 </div>
-                <img src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F267c974ddb794f108f26c541e61109ba?format=webp&width=800" alt="share icon" className="w-9 h-9 object-contain" />
+                <img src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F09d909defc3a4fb5bace43a7ccac7dbc?format=webp&width=800" alt="share icon" className="w-9 h-9 object-contain" />
               </div>
             </div>
           </div>
