@@ -125,11 +125,7 @@ export default function Index() {
             {/* Text Section */}
             <div className="hero-text-section">
               <div className="flex items-center gap-3 mb-4 sm:mb-6">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Fedb7985f0fbe4a51bfd05920236f42d3?format=webp&width=800"
-                  alt="IT solutions icon"
-                  className="w-8 h-8 sm:w-10 sm:h-10 object-contain"
-                />
+                
                 <p className="text-[#21BFFF] text-xs sm:text-sm font-bold tracking-widest">
                   * IT SOLUTIONS *
                 </p>
