@@ -287,78 +287,72 @@ export default function BlogDetail() {
           </AnimatedSection>
 
           {/* Section 1 */}
-          <AnimatedSection delay={0.1}>
-            <div className="mb-14">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
-                1. Understanding the Modern Digital Marketing Landscape
-              </h2>
-              <AnimatedImage
-                src="https://picsum.photos/1200/600?random=2"
-                alt="Digital Marketing Landscape"
-                delay={0.1}
-              />
-              <div className="mt-8">
-                <p className="text-gray-300 mb-4 leading-relaxed">
-                  The digital marketing landscape has transformed dramatically over
-                  the past few years. The rise of artificial intelligence, machine
-                  learning, and advanced analytics has enabled businesses to
-                  understand their customers on a deeper level than ever before.
-                  Today's successful marketing is not about one-size-fits-all
-                  campaigns, but rather hyper-personalized experiences tailored to
-                  individual customer preferences and behaviors.
-                </p>
-                <p className="text-gray-300 mb-4 leading-relaxed">
-                  Key components of modern digital marketing include:
-                </p>
-                <ul className="space-y-3 mb-6 text-gray-300">
-                  <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
-                    <span className="text-[#21BFFF] font-bold">•</span>
-                    <span>
-                      <strong>Search Engine Optimization (SEO):</strong> Ensuring
-                      your website ranks high in search results for relevant
-                      keywords
-                    </span>
-                  </li>
-                  <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
-                    <span className="text-[#21BFFF] font-bold">•</span>
-                    <span>
-                      <strong>Content Marketing:</strong> Creating valuable,
-                      relevant content that attracts and engages your target
-                      audience
-                    </span>
-                  </li>
-                  <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
-                    <span className="text-[#21BFFF] font-bold">•</span>
-                    <span>
-                      <strong>Social Media Marketing:</strong> Building communities
-                      and engaging with customers across social platforms
-                    </span>
-                  </li>
-                  <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
-                    <span className="text-[#21BFFF] font-bold">•</span>
-                    <span>
-                      <strong>Email Marketing:</strong> Maintaining direct
-                      communication with your audience through personalized email
-                      campaigns
-                    </span>
-                  </li>
-                  <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
-                    <span className="text-[#21BFFF] font-bold">•</span>
-                    <span>
-                      <strong>Paid Advertising:</strong> Strategic use of PPC,
-                      display ads, and social media advertising to reach targeted
-                      audiences
-                    </span>
-                  </li>
-                </ul>
-                <p className="text-gray-300 leading-relaxed">
-                  The most successful brands in 2024 are those that seamlessly
-                  integrate these various channels to create a cohesive, omnichannel
-                  marketing strategy that meets customers wherever they are.
-                </p>
-              </div>
-            </div>
-          </AnimatedSection>
+          <SectionCard
+            title="1. Understanding the Modern Digital Marketing Landscape"
+            imageUrl="https://picsum.photos/1200/600?random=2"
+            imageAlt="Digital Marketing Landscape"
+            isImageLeft={false}
+            delay={0.1}
+          >
+            <p className="text-gray-300 mb-4 leading-relaxed">
+              The digital marketing landscape has transformed dramatically over
+              the past few years. The rise of artificial intelligence, machine
+              learning, and advanced analytics has enabled businesses to
+              understand their customers on a deeper level than ever before.
+              Today's successful marketing is not about one-size-fits-all
+              campaigns, but rather hyper-personalized experiences tailored to
+              individual customer preferences and behaviors.
+            </p>
+            <p className="text-gray-300 mb-4 leading-relaxed">
+              Key components of modern digital marketing include:
+            </p>
+            <ul className="space-y-3 mb-6 text-gray-300">
+              <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
+                <span className="text-[#21BFFF] font-bold">•</span>
+                <span>
+                  <strong>Search Engine Optimization (SEO):</strong> Ensuring
+                  your website ranks high in search results for relevant
+                  keywords
+                </span>
+              </li>
+              <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
+                <span className="text-[#21BFFF] font-bold">•</span>
+                <span>
+                  <strong>Content Marketing:</strong> Creating valuable,
+                  relevant content that attracts and engages your target
+                  audience
+                </span>
+              </li>
+              <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
+                <span className="text-[#21BFFF] font-bold">•</span>
+                <span>
+                  <strong>Social Media Marketing:</strong> Building communities
+                  and engaging with customers across social platforms
+                </span>
+              </li>
+              <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
+                <span className="text-[#21BFFF] font-bold">•</span>
+                <span>
+                  <strong>Email Marketing:</strong> Maintaining direct
+                  communication with your audience through personalized email
+                  campaigns
+                </span>
+              </li>
+              <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
+                <span className="text-[#21BFFF] font-bold">•</span>
+                <span>
+                  <strong>Paid Advertising:</strong> Strategic use of PPC,
+                  display ads, and social media advertising to reach targeted
+                  audiences
+                </span>
+              </li>
+            </ul>
+            <p className="text-gray-300 leading-relaxed">
+              The most successful brands in 2024 are those that seamlessly
+              integrate these various channels to create a cohesive, omnichannel
+              marketing strategy that meets customers wherever they are.
+            </p>
+          </SectionCard>
 
           {/* Section 2 */}
           <AnimatedSection delay={0.15}>
