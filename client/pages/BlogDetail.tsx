@@ -355,85 +355,79 @@ export default function BlogDetail() {
           </SectionCard>
 
           {/* Section 2 */}
-          <AnimatedSection delay={0.15}>
-            <div className="mb-14">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
-                2. The Power of Data-Driven Decision Making
-              </h2>
-              <AnimatedImage
-                src="https://picsum.photos/1200/600?random=3"
-                alt="Data Analytics Dashboard"
+          <SectionCard
+            title="2. The Power of Data-Driven Decision Making"
+            imageUrl="https://picsum.photos/1200/600?random=3"
+            imageAlt="Data Analytics Dashboard"
+            isImageLeft={true}
+            delay={0.15}
+          >
+            <p className="text-gray-300 mb-4 leading-relaxed">
+              Data is the new currency of digital marketing. Every click, view,
+              conversion, and interaction provides valuable insights into
+              customer behavior and preferences. By leveraging advanced
+              analytics tools and platforms, businesses can make informed
+              decisions based on real data rather than assumptions or intuition.
+            </p>
+            <p className="text-gray-300 mb-4 leading-relaxed">
+              Key metrics to monitor include:
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+              <AnimatedCard
                 delay={0.1}
-              />
-              <div className="mt-8">
-                <p className="text-gray-300 mb-4 leading-relaxed">
-                  Data is the new currency of digital marketing. Every click, view,
-                  conversion, and interaction provides valuable insights into
-                  customer behavior and preferences. By leveraging advanced
-                  analytics tools and platforms, businesses can make informed
-                  decisions based on real data rather than assumptions or intuition.
+                className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] hover:border-[#21BFFF]/60 hover:bg-[#0b0b11]/80 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
+              >
+                <h4 className="text-[#21BFFF] font-bold mb-2">
+                  Conversion Rate
+                </h4>
+                <p className="text-sm text-gray-300">
+                  The percentage of visitors who take a desired action, such as
+                  making a purchase or signing up for a newsletter
                 </p>
-                <p className="text-gray-300 mb-4 leading-relaxed">
-                  Key metrics to monitor include:
+              </AnimatedCard>
+              <AnimatedCard
+                delay={0.15}
+                className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] hover:border-[#21BFFF]/60 hover:bg-[#0b0b11]/80 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
+              >
+                <h4 className="text-[#21BFFF] font-bold mb-2">
+                  Customer Lifetime Value
+                </h4>
+                <p className="text-sm text-gray-300">
+                  The total revenue a customer generates throughout their
+                  relationship with your business
                 </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-                  <AnimatedCard
-                    delay={0.1}
-                    className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] hover:border-[#21BFFF]/60 hover:bg-[#0b0b11]/80 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
-                  >
-                    <h4 className="text-[#21BFFF] font-bold mb-2">
-                      Conversion Rate
-                    </h4>
-                    <p className="text-sm text-gray-300">
-                      The percentage of visitors who take a desired action, such as
-                      making a purchase or signing up for a newsletter
-                    </p>
-                  </AnimatedCard>
-                  <AnimatedCard
-                    delay={0.15}
-                    className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] hover:border-[#21BFFF]/60 hover:bg-[#0b0b11]/80 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
-                  >
-                    <h4 className="text-[#21BFFF] font-bold mb-2">
-                      Customer Lifetime Value
-                    </h4>
-                    <p className="text-sm text-gray-300">
-                      The total revenue a customer generates throughout their
-                      relationship with your business
-                    </p>
-                  </AnimatedCard>
-                  <AnimatedCard
-                    delay={0.2}
-                    className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] hover:border-[#21BFFF]/60 hover:bg-[#0b0b11]/80 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
-                  >
-                    <h4 className="text-[#21BFFF] font-bold mb-2">
-                      Return on Investment (ROI)
-                    </h4>
-                    <p className="text-sm text-gray-300">
-                      The profit generated from your marketing investments,
-                      calculated as a percentage of your total spend
-                    </p>
-                  </AnimatedCard>
-                  <AnimatedCard
-                    delay={0.25}
-                    className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] hover:border-[#21BFFF]/60 hover:bg-[#0b0b11]/80 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
-                  >
-                    <h4 className="text-[#21BFFF] font-bold mb-2">
-                      Customer Acquisition Cost
-                    </h4>
-                    <p className="text-sm text-gray-300">
-                      The average cost of acquiring a new customer through your
-                      marketing efforts
-                    </p>
-                  </AnimatedCard>
-                </div>
-                <p className="text-gray-300 leading-relaxed">
-                  By monitoring these metrics continuously, you can identify what's
-                  working, what needs improvement, and where to allocate your
-                  marketing budget for maximum impact.
+              </AnimatedCard>
+              <AnimatedCard
+                delay={0.2}
+                className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] hover:border-[#21BFFF]/60 hover:bg-[#0b0b11]/80 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
+              >
+                <h4 className="text-[#21BFFF] font-bold mb-2">
+                  Return on Investment (ROI)
+                </h4>
+                <p className="text-sm text-gray-300">
+                  The profit generated from your marketing investments,
+                  calculated as a percentage of your total spend
                 </p>
-              </div>
+              </AnimatedCard>
+              <AnimatedCard
+                delay={0.25}
+                className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] hover:border-[#21BFFF]/60 hover:bg-[#0b0b11]/80 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
+              >
+                <h4 className="text-[#21BFFF] font-bold mb-2">
+                  Customer Acquisition Cost
+                </h4>
+                <p className="text-sm text-gray-300">
+                  The average cost of acquiring a new customer through your
+                  marketing efforts
+                </p>
+              </AnimatedCard>
             </div>
-          </AnimatedSection>
+            <p className="text-gray-300 leading-relaxed">
+              By monitoring these metrics continuously, you can identify what's
+              working, what needs improvement, and where to allocate your
+              marketing budget for maximum impact.
+            </p>
+          </SectionCard>
 
           {/* Section 3 */}
           <AnimatedSection delay={0.2}>
