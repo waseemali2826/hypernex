@@ -505,6 +505,15 @@ export default function Index() {
                   <li className="flex gap-2">
                     <span className="text-[#21BFFF]">-</span>
                     <a
+                      href="/blog"
+                      className="text-white hover:text-[#21BFFF] transition"
+                    >
+                      BLOG
+                    </a>
+                  </li>
+                  <li className="flex gap-2">
+                    <span className="text-[#21BFFF]">-</span>
+                    <a
                       href="/contact-us"
                       className="text-white hover:text-[#21BFFF] transition"
                     >
