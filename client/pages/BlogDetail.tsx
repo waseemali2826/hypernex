@@ -210,7 +210,7 @@ export default function BlogDetail() {
           {/* Hero Image */}
           <div ref={heroRef} className="mb-12">
             <AnimatedImage
-              src="https://cdn.builder.io/api/v1/image/assets%2Fe9e10a04b7794adf91de2373eb63844c%2F1a420b9415dd4ea193cf56c123ebfd45?format=webp&width=1200"
+              src="https://images.unsplash.com/photo-1611925591917-07ccb582351e?w=1200&h=600&fit=crop"
               alt="Digital Marketing Strategy"
             />
           </div>
