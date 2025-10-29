@@ -37,24 +37,24 @@ function SectionCard({
       style={{
         animation: isVisible ? `slideUp 0.8s ease-out ${delay}s both` : "none",
       }}
-      className="mb-14"
+      className="mb-10"
     >
-      <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
+      <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
         {title}
       </h2>
-      <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 items-center`}>
+      <div className={`grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 items-center`}>
         {/* Image Column */}
         <div className={isImageLeft ? "order-1" : "order-2"}>
           <AnimatedImage
             src={imageUrl}
             alt={imageAlt}
-            delay={delay + 0.1}
+            delay={delay}
           />
         </div>
 
         {/* Text Column */}
         <div className={isImageLeft ? "order-2" : "order-1"}>
-          <AnimatedCard delay={delay + 0.15} className="space-y-4">
+          <AnimatedCard delay={delay} className="space-y-4">
             {children}
           </AnimatedCard>
         </div>
