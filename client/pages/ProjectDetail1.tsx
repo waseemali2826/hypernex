@@ -1,4 +1,4 @@
-// 
+//
 import { useState } from "react";
 import {
   Menu,
@@ -192,10 +192,22 @@ export default function ProjectDetail1() {
 
               {/* Project Overview Section */}
               <div className="mt-12 max-w-4xl mx-auto">
-                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">Project Overview</h2>
+                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">
+                  Project Overview
+                </h2>
                 <div className="space-y-4 text-gray-300">
-                  <p>Since Hollywood Hair Saloon possesses that professional yet trendy taste, a website was in order.</p>
-                  <p>The development of a responsive, visually appealing, and mobile-friendly website will allow clients easily to view available services, make appointments, and learn more about the team. Seamless appointment scheduling integration was necessary while not allowing the site overall performance to degrade and be slow.</p>
+                  <p>
+                    Since Hollywood Hair Saloon possesses that professional yet
+                    trendy taste, a website was in order.
+                  </p>
+                  <p>
+                    The development of a responsive, visually appealing, and
+                    mobile-friendly website will allow clients easily to view
+                    available services, make appointments, and learn more about
+                    the team. Seamless appointment scheduling integration was
+                    necessary while not allowing the site overall performance to
+                    degrade and be slow.
+                  </p>
                 </div>
               </div>
             </div>
@@ -279,14 +291,6 @@ export default function ProjectDetail1() {
               </div>
             </div>
           </div>
-
-
-
-
-
-
-
-
 
           {/* Image above footer added per user request */}
           <div className="mt-8 -mx-3 sm:-mx-4 lg:-mx-8">

@@ -1,4 +1,16 @@
-import { Menu, X, Search, ArrowRight, Facebook, Linkedin, Twitter, Calendar, User, Clock, Share2 } from "lucide-react";
+import {
+  Menu,
+  X,
+  Search,
+  ArrowRight,
+  Facebook,
+  Linkedin,
+  Twitter,
+  Calendar,
+  User,
+  Clock,
+  Share2,
+} from "lucide-react";
 import { useState } from "react";
 
 export default function BlogDetail() {
@@ -39,10 +51,7 @@ export default function BlogDetail() {
               >
                 Portfolio
               </a>
-              <a
-                href="/blog"
-                className="text-sm text-[#21BFFF] font-semibold"
-              >
+              <a href="/blog" className="text-sm text-[#21BFFF] font-semibold">
                 Blog
               </a>
               <a
@@ -89,10 +98,7 @@ export default function BlogDetail() {
               >
                 Portfolio
               </a>
-              <a
-                href="/blog"
-                className="text-sm text-[#21BFFF] font-semibold"
-              >
+              <a href="/blog" className="text-sm text-[#21BFFF] font-semibold">
                 Blog
               </a>
               <a
@@ -157,10 +163,20 @@ export default function BlogDetail() {
           {/* Article Introduction */}
           <div className="mb-12">
             <p className="text-lg text-gray-300 leading-relaxed mb-6">
-              In today's rapidly evolving digital landscape, the ability to effectively market your business online has become not just an advantage, but a necessity. As we move deeper into 2024, digital marketing strategies are becoming increasingly sophisticated, data-driven, and customer-centric. Whether you're a startup looking to establish your online presence or an established brand seeking to expand your digital footprint, understanding and implementing modern marketing techniques is crucial for success.
+              In today's rapidly evolving digital landscape, the ability to
+              effectively market your business online has become not just an
+              advantage, but a necessity. As we move deeper into 2024, digital
+              marketing strategies are becoming increasingly sophisticated,
+              data-driven, and customer-centric. Whether you're a startup
+              looking to establish your online presence or an established brand
+              seeking to expand your digital footprint, understanding and
+              implementing modern marketing techniques is crucial for success.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              This comprehensive guide will walk you through the essential digital marketing strategies, emerging trends, and practical implementation tips that will help your business thrive in 2024 and beyond.
+              This comprehensive guide will walk you through the essential
+              digital marketing strategies, emerging trends, and practical
+              implementation tips that will help your business thrive in 2024
+              and beyond.
             </p>
           </div>
 
@@ -177,7 +193,13 @@ export default function BlogDetail() {
               />
             </div>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              The digital marketing landscape has transformed dramatically over the past few years. The rise of artificial intelligence, machine learning, and advanced analytics has enabled businesses to understand their customers on a deeper level than ever before. Today's successful marketing is not about one-size-fits-all campaigns, but rather hyper-personalized experiences tailored to individual customer preferences and behaviors.
+              The digital marketing landscape has transformed dramatically over
+              the past few years. The rise of artificial intelligence, machine
+              learning, and advanced analytics has enabled businesses to
+              understand their customers on a deeper level than ever before.
+              Today's successful marketing is not about one-size-fits-all
+              campaigns, but rather hyper-personalized experiences tailored to
+              individual customer preferences and behaviors.
             </p>
             <p className="text-gray-300 mb-4 leading-relaxed">
               Key components of modern digital marketing include:
@@ -185,27 +207,48 @@ export default function BlogDetail() {
             <ul className="space-y-3 mb-6 text-gray-300">
               <li className="flex gap-3">
                 <span className="text-[#21BFFF] font-bold">•</span>
-                <span><strong>Search Engine Optimization (SEO):</strong> Ensuring your website ranks high in search results for relevant keywords</span>
+                <span>
+                  <strong>Search Engine Optimization (SEO):</strong> Ensuring
+                  your website ranks high in search results for relevant
+                  keywords
+                </span>
               </li>
               <li className="flex gap-3">
                 <span className="text-[#21BFFF] font-bold">•</span>
-                <span><strong>Content Marketing:</strong> Creating valuable, relevant content that attracts and engages your target audience</span>
+                <span>
+                  <strong>Content Marketing:</strong> Creating valuable,
+                  relevant content that attracts and engages your target
+                  audience
+                </span>
               </li>
               <li className="flex gap-3">
                 <span className="text-[#21BFFF] font-bold">•</span>
-                <span><strong>Social Media Marketing:</strong> Building communities and engaging with customers across social platforms</span>
+                <span>
+                  <strong>Social Media Marketing:</strong> Building communities
+                  and engaging with customers across social platforms
+                </span>
               </li>
               <li className="flex gap-3">
                 <span className="text-[#21BFFF] font-bold">•</span>
-                <span><strong>Email Marketing:</strong> Maintaining direct communication with your audience through personalized email campaigns</span>
+                <span>
+                  <strong>Email Marketing:</strong> Maintaining direct
+                  communication with your audience through personalized email
+                  campaigns
+                </span>
               </li>
               <li className="flex gap-3">
                 <span className="text-[#21BFFF] font-bold">•</span>
-                <span><strong>Paid Advertising:</strong> Strategic use of PPC, display ads, and social media advertising to reach targeted audiences</span>
+                <span>
+                  <strong>Paid Advertising:</strong> Strategic use of PPC,
+                  display ads, and social media advertising to reach targeted
+                  audiences
+                </span>
               </li>
             </ul>
             <p className="text-gray-300 leading-relaxed">
-              The most successful brands in 2024 are those that seamlessly integrate these various channels to create a cohesive, omnichannel marketing strategy that meets customers wherever they are.
+              The most successful brands in 2024 are those that seamlessly
+              integrate these various channels to create a cohesive, omnichannel
+              marketing strategy that meets customers wherever they are.
             </p>
           </div>
 
@@ -222,31 +265,57 @@ export default function BlogDetail() {
               />
             </div>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              Data is the new currency of digital marketing. Every click, view, conversion, and interaction provides valuable insights into customer behavior and preferences. By leveraging advanced analytics tools and platforms, businesses can make informed decisions based on real data rather than assumptions or intuition.
+              Data is the new currency of digital marketing. Every click, view,
+              conversion, and interaction provides valuable insights into
+              customer behavior and preferences. By leveraging advanced
+              analytics tools and platforms, businesses can make informed
+              decisions based on real data rather than assumptions or intuition.
             </p>
             <p className="text-gray-300 mb-4 leading-relaxed">
               Key metrics to monitor include:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
               <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11]">
-                <h4 className="text-[#21BFFF] font-bold mb-2">Conversion Rate</h4>
-                <p className="text-sm text-gray-300">The percentage of visitors who take a desired action, such as making a purchase or signing up for a newsletter</p>
+                <h4 className="text-[#21BFFF] font-bold mb-2">
+                  Conversion Rate
+                </h4>
+                <p className="text-sm text-gray-300">
+                  The percentage of visitors who take a desired action, such as
+                  making a purchase or signing up for a newsletter
+                </p>
               </div>
               <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11]">
-                <h4 className="text-[#21BFFF] font-bold mb-2">Customer Lifetime Value</h4>
-                <p className="text-sm text-gray-300">The total revenue a customer generates throughout their relationship with your business</p>
+                <h4 className="text-[#21BFFF] font-bold mb-2">
+                  Customer Lifetime Value
+                </h4>
+                <p className="text-sm text-gray-300">
+                  The total revenue a customer generates throughout their
+                  relationship with your business
+                </p>
               </div>
               <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11]">
-                <h4 className="text-[#21BFFF] font-bold mb-2">Return on Investment (ROI)</h4>
-                <p className="text-sm text-gray-300">The profit generated from your marketing investments, calculated as a percentage of your total spend</p>
+                <h4 className="text-[#21BFFF] font-bold mb-2">
+                  Return on Investment (ROI)
+                </h4>
+                <p className="text-sm text-gray-300">
+                  The profit generated from your marketing investments,
+                  calculated as a percentage of your total spend
+                </p>
               </div>
               <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11]">
-                <h4 className="text-[#21BFFF] font-bold mb-2">Customer Acquisition Cost</h4>
-                <p className="text-sm text-gray-300">The average cost of acquiring a new customer through your marketing efforts</p>
+                <h4 className="text-[#21BFFF] font-bold mb-2">
+                  Customer Acquisition Cost
+                </h4>
+                <p className="text-sm text-gray-300">
+                  The average cost of acquiring a new customer through your
+                  marketing efforts
+                </p>
               </div>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              By monitoring these metrics continuously, you can identify what's working, what needs improvement, and where to allocate your marketing budget for maximum impact.
+              By monitoring these metrics continuously, you can identify what's
+              working, what needs improvement, and where to allocate your
+              marketing budget for maximum impact.
             </p>
           </div>
 
@@ -263,7 +332,11 @@ export default function BlogDetail() {
               />
             </div>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              Content is king in the digital marketing world. High-quality, valuable content not only attracts potential customers but also establishes your brand as an authority in your industry. Content marketing encompasses various formats including blog posts, videos, podcasts, infographics, whitepapers, and case studies.
+              Content is king in the digital marketing world. High-quality,
+              valuable content not only attracts potential customers but also
+              establishes your brand as an authority in your industry. Content
+              marketing encompasses various formats including blog posts,
+              videos, podcasts, infographics, whitepapers, and case studies.
             </p>
             <p className="text-gray-300 mb-4 leading-relaxed">
               An effective content marketing strategy should:
@@ -271,27 +344,44 @@ export default function BlogDetail() {
             <ul className="space-y-3 mb-6 text-gray-300">
               <li className="flex gap-3">
                 <span className="text-[#21BFFF] font-bold">���</span>
-                <span><strong>Address Customer Pain Points:</strong> Create content that solves real problems your customers face</span>
+                <span>
+                  <strong>Address Customer Pain Points:</strong> Create content
+                  that solves real problems your customers face
+                </span>
               </li>
               <li className="flex gap-3">
                 <span className="text-[#21BFFF] font-bold">✓</span>
-                <span><strong>Be Consistent:</strong> Publish content regularly on a schedule your audience can rely on</span>
+                <span>
+                  <strong>Be Consistent:</strong> Publish content regularly on a
+                  schedule your audience can rely on
+                </span>
               </li>
               <li className="flex gap-3">
                 <span className="text-[#21BFFF] font-bold">✓</span>
-                <span><strong>Optimize for SEO:</strong> Ensure your content is discoverable through search engines</span>
+                <span>
+                  <strong>Optimize for SEO:</strong> Ensure your content is
+                  discoverable through search engines
+                </span>
               </li>
               <li className="flex gap-3">
                 <span className="text-[#21BFFF] font-bold">✓</span>
-                <span><strong>Tell Stories:</strong> Use storytelling to create emotional connections with your audience</span>
+                <span>
+                  <strong>Tell Stories:</strong> Use storytelling to create
+                  emotional connections with your audience
+                </span>
               </li>
               <li className="flex gap-3">
                 <span className="text-[#21BFFF] font-bold">✓</span>
-                <span><strong>Distribute Across Channels:</strong> Share your content on multiple platforms to maximize reach</span>
+                <span>
+                  <strong>Distribute Across Channels:</strong> Share your
+                  content on multiple platforms to maximize reach
+                </span>
               </li>
             </ul>
             <p className="text-gray-300 leading-relaxed">
-              Remember, great content isn't just about what you're selling—it's about providing genuine value to your audience and building trust over time.
+              Remember, great content isn't just about what you're selling—it's
+              about providing genuine value to your audience and building trust
+              over time.
             </p>
           </div>
 
@@ -308,31 +398,53 @@ export default function BlogDetail() {
               />
             </div>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              Social media has evolved from a platform for personal connections to a powerful business tool. With billions of users across various platforms, social media offers unprecedented opportunities to reach and engage your target audience. Whether you're using Facebook, Instagram, LinkedIn, Twitter, or TikTok, each platform has unique characteristics and audience demographics.
+              Social media has evolved from a platform for personal connections
+              to a powerful business tool. With billions of users across various
+              platforms, social media offers unprecedented opportunities to
+              reach and engage your target audience. Whether you're using
+              Facebook, Instagram, LinkedIn, Twitter, or TikTok, each platform
+              has unique characteristics and audience demographics.
             </p>
             <p className="text-gray-300 mb-4 leading-relaxed">
               Different platforms serve different purposes:
             </p>
             <div className="space-y-4 mb-6">
               <div className="p-4 border border-[#21BFFF]/20 rounded-lg bg-[#221040]/30 hover:border-[#21BFFF]/50 transition">
-                <h4 className="text-[#21BFFF] font-bold mb-2">Facebook & Instagram</h4>
-                <p className="text-sm text-gray-300">Best for building communities, sharing visual content, and running targeted advertising campaigns</p>
+                <h4 className="text-[#21BFFF] font-bold mb-2">
+                  Facebook & Instagram
+                </h4>
+                <p className="text-sm text-gray-300">
+                  Best for building communities, sharing visual content, and
+                  running targeted advertising campaigns
+                </p>
               </div>
               <div className="p-4 border border-[#21BFFF]/20 rounded-lg bg-[#221040]/30 hover:border-[#21BFFF]/50 transition">
                 <h4 className="text-[#21BFFF] font-bold mb-2">LinkedIn</h4>
-                <p className="text-sm text-gray-300">Ideal for B2B marketing, thought leadership, and professional networking</p>
+                <p className="text-sm text-gray-300">
+                  Ideal for B2B marketing, thought leadership, and professional
+                  networking
+                </p>
               </div>
               <div className="p-4 border border-[#21BFFF]/20 rounded-lg bg-[#221040]/30 hover:border-[#21BFFF]/50 transition">
                 <h4 className="text-[#21BFFF] font-bold mb-2">TikTok</h4>
-                <p className="text-sm text-gray-300">Perfect for reaching younger audiences with creative, short-form video content</p>
+                <p className="text-sm text-gray-300">
+                  Perfect for reaching younger audiences with creative,
+                  short-form video content
+                </p>
               </div>
               <div className="p-4 border border-[#21BFFF]/20 rounded-lg bg-[#221040]/30 hover:border-[#21BFFF]/50 transition">
                 <h4 className="text-[#21BFFF] font-bold mb-2">YouTube</h4>
-                <p className="text-sm text-gray-300">The best platform for video marketing, tutorials, and long-form content</p>
+                <p className="text-sm text-gray-300">
+                  The best platform for video marketing, tutorials, and
+                  long-form content
+                </p>
               </div>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Successful social media marketing is about building genuine communities, engaging with your audience, and creating content that resonates with them, rather than just broadcasting your message.
+              Successful social media marketing is about building genuine
+              communities, engaging with your audience, and creating content
+              that resonates with them, rather than just broadcasting your
+              message.
             </p>
           </div>
 
@@ -342,32 +454,66 @@ export default function BlogDetail() {
               5. Emerging Trends in Digital Marketing 2024
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              The digital marketing landscape continues to evolve at a rapid pace. Here are the key trends shaping the industry in 2024:
+              The digital marketing landscape continues to evolve at a rapid
+              pace. Here are the key trends shaping the industry in 2024:
             </p>
             <div className="grid grid-cols-1 gap-6 mb-6">
               <div className="border-l-4 border-[#21BFFF] p-6 bg-[#221040]/50 rounded">
-                <h4 className="text-xl font-bold text-white mb-2">Artificial Intelligence & Machine Learning</h4>
-                <p className="text-gray-300">AI-powered tools are revolutionizing how businesses personalize customer experiences, predict behavior, and optimize campaigns in real-time</p>
+                <h4 className="text-xl font-bold text-white mb-2">
+                  Artificial Intelligence & Machine Learning
+                </h4>
+                <p className="text-gray-300">
+                  AI-powered tools are revolutionizing how businesses
+                  personalize customer experiences, predict behavior, and
+                  optimize campaigns in real-time
+                </p>
               </div>
               <div className="border-l-4 border-[#570C95] p-6 bg-[#221040]/50 rounded">
-                <h4 className="text-xl font-bold text-white mb-2">Voice Search Optimization</h4>
-                <p className="text-gray-300">With the rise of smart speakers and voice assistants, optimizing your content for voice search is becoming increasingly important</p>
+                <h4 className="text-xl font-bold text-white mb-2">
+                  Voice Search Optimization
+                </h4>
+                <p className="text-gray-300">
+                  With the rise of smart speakers and voice assistants,
+                  optimizing your content for voice search is becoming
+                  increasingly important
+                </p>
               </div>
               <div className="border-l-4 border-[#21BFFF] p-6 bg-[#221040]/50 rounded">
-                <h4 className="text-xl font-bold text-white mb-2">Video Marketing Dominance</h4>
-                <p className="text-gray-300">Video content continues to outperform other formats in terms of engagement and conversion rates across all platforms</p>
+                <h4 className="text-xl font-bold text-white mb-2">
+                  Video Marketing Dominance
+                </h4>
+                <p className="text-gray-300">
+                  Video content continues to outperform other formats in terms
+                  of engagement and conversion rates across all platforms
+                </p>
               </div>
               <div className="border-l-4 border-[#570C95] p-6 bg-[#221040]/50 rounded">
-                <h4 className="text-xl font-bold text-white mb-2">Privacy-First Marketing</h4>
-                <p className="text-gray-300">With stricter privacy regulations, marketers are focusing on building trust and using first-party data instead of relying on third-party cookies</p>
+                <h4 className="text-xl font-bold text-white mb-2">
+                  Privacy-First Marketing
+                </h4>
+                <p className="text-gray-300">
+                  With stricter privacy regulations, marketers are focusing on
+                  building trust and using first-party data instead of relying
+                  on third-party cookies
+                </p>
               </div>
               <div className="border-l-4 border-[#21BFFF] p-6 bg-[#221040]/50 rounded">
-                <h4 className="text-xl font-bold text-white mb-2">Interactive Content</h4>
-                <p className="text-gray-300">Quizzes, calculators, polls, and interactive experiences are generating higher engagement rates than static content</p>
+                <h4 className="text-xl font-bold text-white mb-2">
+                  Interactive Content
+                </h4>
+                <p className="text-gray-300">
+                  Quizzes, calculators, polls, and interactive experiences are
+                  generating higher engagement rates than static content
+                </p>
               </div>
               <div className="border-l-4 border-[#570C95] p-6 bg-[#221040]/50 rounded">
-                <h4 className="text-xl font-bold text-white mb-2">Community Building</h4>
-                <p className="text-gray-300">Brands are shifting focus to building loyal communities rather than just acquiring customers</p>
+                <h4 className="text-xl font-bold text-white mb-2">
+                  Community Building
+                </h4>
+                <p className="text-gray-300">
+                  Brands are shifting focus to building loyal communities rather
+                  than just acquiring customers
+                </p>
               </div>
             </div>
           </div>
@@ -378,56 +524,107 @@ export default function BlogDetail() {
               6. Implementing Your Digital Marketing Strategy
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Now that you understand the key concepts and trends, here's how to implement a comprehensive digital marketing strategy:
+              Now that you understand the key concepts and trends, here's how to
+              implement a comprehensive digital marketing strategy:
             </p>
             <div className="space-y-4 mb-6">
               <div className="flex gap-4 p-6 border border-[#21BFFF]/20 rounded-lg bg-[#0b0b11] hover:bg-[#0b0b11]/80 transition">
-                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">1</div>
+                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">
+                  1
+                </div>
                 <div>
-                  <h4 className="font-bold text-white mb-2">Define Clear Goals</h4>
-                  <p className="text-sm text-gray-300">Set specific, measurable objectives for your digital marketing efforts (e.g., increase website traffic by 50%, generate 100 leads per month)</p>
+                  <h4 className="font-bold text-white mb-2">
+                    Define Clear Goals
+                  </h4>
+                  <p className="text-sm text-gray-300">
+                    Set specific, measurable objectives for your digital
+                    marketing efforts (e.g., increase website traffic by 50%,
+                    generate 100 leads per month)
+                  </p>
                 </div>
               </div>
               <div className="flex gap-4 p-6 border border-[#21BFFF]/20 rounded-lg bg-[#0b0b11] hover:bg-[#0b0b11]/80 transition">
-                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">2</div>
+                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">
+                  2
+                </div>
                 <div>
-                  <h4 className="font-bold text-white mb-2">Know Your Audience</h4>
-                  <p className="text-sm text-gray-300">Create detailed buyer personas based on research, data, and customer insights to tailor your messaging</p>
+                  <h4 className="font-bold text-white mb-2">
+                    Know Your Audience
+                  </h4>
+                  <p className="text-sm text-gray-300">
+                    Create detailed buyer personas based on research, data, and
+                    customer insights to tailor your messaging
+                  </p>
                 </div>
               </div>
               <div className="flex gap-4 p-6 border border-[#21BFFF]/20 rounded-lg bg-[#0b0b11] hover:bg-[#0b0b11]/80 transition">
-                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">3</div>
+                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">
+                  3
+                </div>
                 <div>
-                  <h4 className="font-bold text-white mb-2">Audit Your Current Presence</h4>
-                  <p className="text-sm text-gray-300">Evaluate your existing digital assets, website, social media profiles, and current marketing efforts</p>
+                  <h4 className="font-bold text-white mb-2">
+                    Audit Your Current Presence
+                  </h4>
+                  <p className="text-sm text-gray-300">
+                    Evaluate your existing digital assets, website, social media
+                    profiles, and current marketing efforts
+                  </p>
                 </div>
               </div>
               <div className="flex gap-4 p-6 border border-[#21BFFF]/20 rounded-lg bg-[#0b0b11] hover:bg-[#0b0b11]/80 transition">
-                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">4</div>
+                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">
+                  4
+                </div>
                 <div>
-                  <h4 className="font-bold text-white mb-2">Choose Your Channels</h4>
-                  <p className="text-sm text-gray-300">Select the digital marketing channels that best align with your goals and where your audience spends their time</p>
+                  <h4 className="font-bold text-white mb-2">
+                    Choose Your Channels
+                  </h4>
+                  <p className="text-sm text-gray-300">
+                    Select the digital marketing channels that best align with
+                    your goals and where your audience spends their time
+                  </p>
                 </div>
               </div>
               <div className="flex gap-4 p-6 border border-[#21BFFF]/20 rounded-lg bg-[#0b0b11] hover:bg-[#0b0b11]/80 transition">
-                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">5</div>
+                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">
+                  5
+                </div>
                 <div>
-                  <h4 className="font-bold text-white mb-2">Create Quality Content</h4>
-                  <p className="text-sm text-gray-300">Develop a content calendar and create valuable, engaging content that addresses your audience's needs</p>
+                  <h4 className="font-bold text-white mb-2">
+                    Create Quality Content
+                  </h4>
+                  <p className="text-sm text-gray-300">
+                    Develop a content calendar and create valuable, engaging
+                    content that addresses your audience's needs
+                  </p>
                 </div>
               </div>
               <div className="flex gap-4 p-6 border border-[#21BFFF]/20 rounded-lg bg-[#0b0b11] hover:bg-[#0b0b11]/80 transition">
-                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">6</div>
+                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">
+                  6
+                </div>
                 <div>
-                  <h4 className="font-bold text-white mb-2">Optimize and Test</h4>
-                  <p className="text-sm text-gray-300">Use A/B testing to experiment with different approaches and continuously optimize your campaigns</p>
+                  <h4 className="font-bold text-white mb-2">
+                    Optimize and Test
+                  </h4>
+                  <p className="text-sm text-gray-300">
+                    Use A/B testing to experiment with different approaches and
+                    continuously optimize your campaigns
+                  </p>
                 </div>
               </div>
               <div className="flex gap-4 p-6 border border-[#21BFFF]/20 rounded-lg bg-[#0b0b11] hover:bg-[#0b0b11]/80 transition">
-                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">7</div>
+                <div className="text-2xl font-bold text-[#21BFFF] min-w-[40px]">
+                  7
+                </div>
                 <div>
-                  <h4 className="font-bold text-white mb-2">Monitor and Report</h4>
-                  <p className="text-sm text-gray-300">Track key metrics, analyze performance data, and adjust your strategy based on results</p>
+                  <h4 className="font-bold text-white mb-2">
+                    Monitor and Report
+                  </h4>
+                  <p className="text-sm text-gray-300">
+                    Track key metrics, analyze performance data, and adjust your
+                    strategy based on results
+                  </p>
                 </div>
               </div>
             </div>
@@ -439,13 +636,24 @@ export default function BlogDetail() {
               Conclusion: Your Path to Digital Success
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Digital marketing in 2024 is more important than ever for businesses of all sizes. By understanding the fundamental principles, staying aware of emerging trends, and implementing a comprehensive strategy tailored to your unique goals and audience, you can position your business for sustained growth and success.
+              Digital marketing in 2024 is more important than ever for
+              businesses of all sizes. By understanding the fundamental
+              principles, staying aware of emerging trends, and implementing a
+              comprehensive strategy tailored to your unique goals and audience,
+              you can position your business for sustained growth and success.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Remember, digital marketing is not a one-time effort but an ongoing process of learning, testing, and optimization. The most successful brands are those that remain agile, data-driven, and customer-focused in their approach.
+              Remember, digital marketing is not a one-time effort but an
+              ongoing process of learning, testing, and optimization. The most
+              successful brands are those that remain agile, data-driven, and
+              customer-focused in their approach.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              At HyperNexis, we're committed to helping businesses like yours navigate the complex digital landscape and achieve their marketing goals. Whether you need help with strategy, implementation, or optimization, our team of experts is here to support your journey to digital excellence.
+              At HyperNexis, we're committed to helping businesses like yours
+              navigate the complex digital landscape and achieve their marketing
+              goals. Whether you need help with strategy, implementation, or
+              optimization, our team of experts is here to support your journey
+              to digital excellence.
             </p>
           </div>
 
@@ -453,7 +661,9 @@ export default function BlogDetail() {
           <div className="flex flex-wrap items-center justify-between p-6 border border-[#21BFFF]/20 rounded-lg bg-[#0b0b11] mb-12">
             <div>
               <h3 className="font-bold text-white mb-2">Share This Article</h3>
-              <p className="text-sm text-gray-400">Help others discover this valuable content</p>
+              <p className="text-sm text-gray-400">
+                Help others discover this valuable content
+              </p>
             </div>
             <div className="flex items-center gap-3">
               <a
@@ -493,11 +703,20 @@ export default function BlogDetail() {
                 <span className="text-4xl">👨‍💼</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white mb-2">HyperNexis Team</h3>
+                <h3 className="text-xl font-bold text-white mb-2">
+                  HyperNexis Team
+                </h3>
                 <p className="text-gray-300 mb-4">
-                  Our expert team at HyperNexis is dedicated to helping businesses succeed in the digital world. With years of experience in digital marketing, web development, and business strategy, we're committed to delivering innovative solutions and insights that drive real results.
+                  Our expert team at HyperNexis is dedicated to helping
+                  businesses succeed in the digital world. With years of
+                  experience in digital marketing, web development, and business
+                  strategy, we're committed to delivering innovative solutions
+                  and insights that drive real results.
                 </p>
-                <a href="/contact-us" className="text-[#21BFFF] font-semibold hover:text-white transition inline-flex items-center gap-2">
+                <a
+                  href="/contact-us"
+                  className="text-[#21BFFF] font-semibold hover:text-white transition inline-flex items-center gap-2"
+                >
                   Learn More About Us <ArrowRight className="w-4 h-4" />
                 </a>
               </div>
@@ -506,7 +725,9 @@ export default function BlogDetail() {
 
           {/* Related Posts */}
           <div className="mb-12">
-            <h2 className="text-3xl font-bold text-white mb-8">Related Articles</h2>
+            <h2 className="text-3xl font-bold text-white mb-8">
+              Related Articles
+            </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="p-6 border border-[#21BFFF]/20 rounded-lg bg-[#221040]/50 hover:border-[#21BFFF]/50 transition group">
                 <div className="h-48 bg-gradient-to-br from-[#21BFFF]/10 to-[#570C95]/10 rounded mb-4 flex items-center justify-center overflow-hidden">
@@ -516,9 +737,17 @@ export default function BlogDetail() {
                     className="w-full h-full object-cover group-hover:scale-105 transition"
                   />
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3">Web Development Trends That Will Define 2024</h3>
-                <p className="text-sm text-gray-400 mb-4">Explore the latest technologies and best practices in web development</p>
-                <a href="/blog" className="text-[#21BFFF] text-sm font-semibold inline-flex items-center gap-2 hover:gap-3 transition">
+                <h3 className="text-lg font-bold text-white mb-3">
+                  Web Development Trends That Will Define 2024
+                </h3>
+                <p className="text-sm text-gray-400 mb-4">
+                  Explore the latest technologies and best practices in web
+                  development
+                </p>
+                <a
+                  href="/blog"
+                  className="text-[#21BFFF] text-sm font-semibold inline-flex items-center gap-2 hover:gap-3 transition"
+                >
                   Read More <ArrowRight className="w-3 h-3" />
                 </a>
               </div>
@@ -530,9 +759,16 @@ export default function BlogDetail() {
                     className="w-full h-full object-cover group-hover:scale-105 transition"
                   />
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3">Building a Successful E-Commerce Platform</h3>
-                <p className="text-sm text-gray-400 mb-4">Complete guide to creating and scaling your online store</p>
-                <a href="/blog" className="text-[#21BFFF] text-sm font-semibold inline-flex items-center gap-2 hover:gap-3 transition">
+                <h3 className="text-lg font-bold text-white mb-3">
+                  Building a Successful E-Commerce Platform
+                </h3>
+                <p className="text-sm text-gray-400 mb-4">
+                  Complete guide to creating and scaling your online store
+                </p>
+                <a
+                  href="/blog"
+                  className="text-[#21BFFF] text-sm font-semibold inline-flex items-center gap-2 hover:gap-3 transition"
+                >
                   Read More <ArrowRight className="w-3 h-3" />
                 </a>
               </div>
@@ -545,7 +781,8 @@ export default function BlogDetail() {
               Ready to Transform Your Digital Marketing?
             </h2>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Our expert team at HyperNexis is ready to help you implement these strategies and achieve your business goals.
+              Our expert team at HyperNexis is ready to help you implement these
+              strategies and achieve your business goals.
             </p>
             <a
               href="/contact-us"
