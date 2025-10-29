@@ -59,6 +59,12 @@ export default function Index() {
                 Portfolio
               </a>
               <a
+                href="/blog"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
+                Blog
+              </a>
+              <a
                 href="/contact-us"
                 className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
@@ -101,6 +107,12 @@ export default function Index() {
                 className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
               >
                 Portfolio
+              </a>
+              <a
+                href="/blog"
+                className="text-sm text-gray-300 hover:text-[#21BFFF] transition"
+              >
+                Blog
               </a>
               <a
                 href="/contact-us"
