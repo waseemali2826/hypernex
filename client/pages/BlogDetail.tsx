@@ -430,72 +430,66 @@ export default function BlogDetail() {
           </SectionCard>
 
           {/* Section 3 */}
-          <AnimatedSection delay={0.2}>
-            <div className="mb-14">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
-                3. Content Marketing: The Foundation of Digital Success
-              </h2>
-              <AnimatedImage
-                src="https://picsum.photos/1200/600?random=4"
-                alt="Content Creation Process"
-                delay={0.1}
-              />
-              <div className="mt-8">
-                <p className="text-gray-300 mb-4 leading-relaxed">
-                  Content is king in the digital marketing world. High-quality,
-                  valuable content not only attracts potential customers but also
-                  establishes your brand as an authority in your industry. Content
-                  marketing encompasses various formats including blog posts,
-                  videos, podcasts, infographics, whitepapers, and case studies.
-                </p>
-                <p className="text-gray-300 mb-4 leading-relaxed">
-                  An effective content marketing strategy should:
-                </p>
-                <ul className="space-y-3 mb-6 text-gray-300">
-                  <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
-                    <span className="text-[#21BFFF] font-bold">✓</span>
-                    <span>
-                      <strong>Address Customer Pain Points:</strong> Create content
-                      that solves real problems your customers face
-                    </span>
-                  </li>
-                  <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
-                    <span className="text-[#21BFFF] font-bold">✓</span>
-                    <span>
-                      <strong>Be Consistent:</strong> Publish content regularly on a
-                      schedule your audience can rely on
-                    </span>
-                  </li>
-                  <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
-                    <span className="text-[#21BFFF] font-bold">✓</span>
-                    <span>
-                      <strong>Optimize for SEO:</strong> Ensure your content is
-                      discoverable through search engines
-                    </span>
-                  </li>
-                  <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
-                    <span className="text-[#21BFFF] font-bold">✓</span>
-                    <span>
-                      <strong>Tell Stories:</strong> Use storytelling to create
-                      emotional connections with your audience
-                    </span>
-                  </li>
-                  <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
-                    <span className="text-[#21BFFF] font-bold">✓</span>
-                    <span>
-                      <strong>Distribute Across Channels:</strong> Share your
-                      content on multiple platforms to maximize reach
-                    </span>
-                  </li>
-                </ul>
-                <p className="text-gray-300 leading-relaxed">
-                  Remember, great content isn't just about what you're selling—it's
-                  about providing genuine value to your audience and building trust
-                  over time.
-                </p>
-              </div>
-            </div>
-          </AnimatedSection>
+          <SectionCard
+            title="3. Content Marketing: The Foundation of Digital Success"
+            imageUrl="https://picsum.photos/1200/600?random=4"
+            imageAlt="Content Creation Process"
+            isImageLeft={false}
+            delay={0.2}
+          >
+            <p className="text-gray-300 mb-4 leading-relaxed">
+              Content is king in the digital marketing world. High-quality,
+              valuable content not only attracts potential customers but also
+              establishes your brand as an authority in your industry. Content
+              marketing encompasses various formats including blog posts,
+              videos, podcasts, infographics, whitepapers, and case studies.
+            </p>
+            <p className="text-gray-300 mb-4 leading-relaxed">
+              An effective content marketing strategy should:
+            </p>
+            <ul className="space-y-3 mb-6 text-gray-300">
+              <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
+                <span className="text-[#21BFFF] font-bold">✓</span>
+                <span>
+                  <strong>Address Customer Pain Points:</strong> Create content
+                  that solves real problems your customers face
+                </span>
+              </li>
+              <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
+                <span className="text-[#21BFFF] font-bold">✓</span>
+                <span>
+                  <strong>Be Consistent:</strong> Publish content regularly on a
+                  schedule your audience can rely on
+                </span>
+              </li>
+              <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
+                <span className="text-[#21BFFF] font-bold">✓</span>
+                <span>
+                  <strong>Optimize for SEO:</strong> Ensure your content is
+                  discoverable through search engines
+                </span>
+              </li>
+              <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
+                <span className="text-[#21BFFF] font-bold">✓</span>
+                <span>
+                  <strong>Tell Stories:</strong> Use storytelling to create
+                  emotional connections with your audience
+                </span>
+              </li>
+              <li className="flex gap-3 p-3 rounded-lg bg-[#0b0b11]/50 hover:bg-[#0b0b11] transition-all duration-300 hover:translate-x-2">
+                <span className="text-[#21BFFF] font-bold">✓</span>
+                <span>
+                  <strong>Distribute Across Channels:</strong> Share your
+                  content on multiple platforms to maximize reach
+                </span>
+              </li>
+            </ul>
+            <p className="text-gray-300 leading-relaxed">
+              Remember, great content isn't just about what you're selling—it's
+              about providing genuine value to your audience and building trust
+              over time.
+            </p>
+          </SectionCard>
 
           {/* Section 4 */}
           <AnimatedSection delay={0.25}>
