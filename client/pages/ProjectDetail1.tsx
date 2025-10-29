@@ -1,3 +1,4 @@
+// 
 import { useState } from "react";
 import {
   Menu,
@@ -8,7 +9,6 @@ import {
   Linkedin,
   Twitter,
 } from "lucide-react";
-import PageFooter from "@/components/PageFooter";
 
 export default function ProjectDetail1() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -177,6 +177,15 @@ export default function ProjectDetail1() {
                   className="w-full max-w-2xl rounded-lg object-cover shadow-md"
                 />
               </div>
+
+              {/* Project Overview Section */}
+              <div className="mt-12 max-w-4xl mx-auto">
+                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">Project Overview</h2>
+                <div className="space-y-4 text-gray-300">
+                  <p>Since Hollywood Hair Saloon possesses that professional yet trendy taste, a website was in order.</p>
+                  <p>The development of a responsive, visually appealing, and mobile-friendly website will allow clients easily to view available services, make appointments, and learn more about the team. Seamless appointment scheduling integration was necessary while not allowing the site overall performance to degrade and be slow.</p>
+                </div>
+              </div>
             </div>
 
             <div className="space-y-4">
@@ -221,7 +230,6 @@ export default function ProjectDetail1() {
                   className="w-9 h-9 object-contain"
                 />
               </div>
-
               <div className="p-4 border border-[#21BFFF]/30 rounded-lg bg-[#0b0b11] h-24 flex items-center justify-between">
                 <div>
                   <h4 className="text-xs text-[#21BFFF] font-bold tracking-widest mb-2">
@@ -260,6 +268,14 @@ export default function ProjectDetail1() {
             </div>
           </div>
 
+
+
+
+
+
+
+
+
           {/* Image above footer added per user request */}
           <div className="mt-8 -mx-3 sm:-mx-4 lg:-mx-8">
             <img
@@ -270,8 +286,6 @@ export default function ProjectDetail1() {
           </div>
         </div>
       </section>
-
-      <PageFooter showBackgroundImage={true} />
 
       {/* Floating Action Button */}
       <button className="fixed bottom-6 right-6 w-12 h-12 bg-gradient-to-r from-[#21BFFF] to-[#570C95] rounded-full flex items-center justify-center text-white hover:shadow-xl hover:shadow-[#21BFFF]/50 transition z-40">
