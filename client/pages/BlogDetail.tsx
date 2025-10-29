@@ -20,7 +20,7 @@ function SectionCard({
   imageAlt,
   isImageLeft = false,
   delay = 0,
-  children
+  children,
 }: {
   title: string;
   imageUrl: string;
@@ -42,14 +42,12 @@ function SectionCard({
       <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
         {title}
       </h2>
-      <div className={`grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 items-center`}>
+      <div
+        className={`grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 items-center`}
+      >
         {/* Image Column */}
         <div className={isImageLeft ? "order-1" : "order-2"}>
-          <AnimatedImage
-            src={imageUrl}
-            alt={imageAlt}
-            delay={delay}
-          />
+          <AnimatedImage src={imageUrl} alt={imageAlt} delay={delay} />
         </div>
 
         {/* Text Column */}
@@ -63,7 +61,13 @@ function SectionCard({
   );
 }
 
-function AnimatedSection({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
+function AnimatedSection({
+  children,
+  delay = 0,
+}: {
+  children: React.ReactNode;
+  delay?: number;
+}) {
   const { elementRef, isVisible } = useScrollAnimation();
   return (
     <div
@@ -77,7 +81,15 @@ function AnimatedSection({ children, delay = 0 }: { children: React.ReactNode; d
   );
 }
 
-function AnimatedImage({ src, alt, delay = 0 }: { src: string; alt: string; delay?: number }) {
+function AnimatedImage({
+  src,
+  alt,
+  delay = 0,
+}: {
+  src: string;
+  alt: string;
+  delay?: number;
+}) {
   const { elementRef, isVisible } = useScrollAnimation();
   return (
     <div
@@ -96,7 +108,15 @@ function AnimatedImage({ src, alt, delay = 0 }: { src: string; alt: string; dela
   );
 }
 
-function AnimatedCard({ children, delay = 0, className = "" }: { children: React.ReactNode; delay?: number; className?: string }) {
+function AnimatedCard({
+  children,
+  delay = 0,
+  className = "",
+}: {
+  children: React.ReactNode;
+  delay?: number;
+  className?: string;
+}) {
   const { elementRef, isVisible } = useScrollAnimation();
   return (
     <div
@@ -153,7 +173,10 @@ export default function BlogDetail() {
                 Portfolio
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-[#21BFFF] to-[#570C95] group-hover:w-full transition-all duration-300"></span>
               </a>
-              <a href="/blog" className="text-sm text-[#21BFFF] font-semibold relative group">
+              <a
+                href="/blog"
+                className="text-sm text-[#21BFFF] font-semibold relative group"
+              >
                 Blog
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-[#21BFFF] to-[#570C95]"></span>
               </a>
@@ -223,18 +246,32 @@ export default function BlogDetail() {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-4 animate-slide-up leading-tight">
             Transform Your Business with Digital Marketing in 2024
           </h1>
-          <div className="flex items-center justify-center gap-2 text-gray-400 mb-6 animate-slide-up" style={{ animationDelay: "0.1s" }}>
-            <a href="/" className="hover:text-[#21BFFF] transition-all duration-300 hover:scale-110">
+          <div
+            className="flex items-center justify-center gap-2 text-gray-400 mb-6 animate-slide-up"
+            style={{ animationDelay: "0.1s" }}
+          >
+            <a
+              href="/"
+              className="hover:text-[#21BFFF] transition-all duration-300 hover:scale-110"
+            >
               Home
             </a>
             <span>/</span>
-            <a href="/blog" className="hover:text-[#21BFFF] transition-all duration-300 hover:scale-110">
+            <a
+              href="/blog"
+              className="hover:text-[#21BFFF] transition-all duration-300 hover:scale-110"
+            >
               Blog
             </a>
             <span>/</span>
-            <span className="text-[#21BFFF] font-semibold">Digital Marketing 2024</span>
+            <span className="text-[#21BFFF] font-semibold">
+              Digital Marketing 2024
+            </span>
           </div>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-xs sm:text-sm text-gray-400 animate-slide-up" style={{ animationDelay: "0.2s" }}>
+          <div
+            className="flex flex-col sm:flex-row items-center justify-center gap-4 text-xs sm:text-sm text-gray-400 animate-slide-up"
+            style={{ animationDelay: "0.2s" }}
+          >
             <div className="flex items-center gap-2 hover:text-[#21BFFF] transition-all duration-300">
               <User className="w-4 h-4" />
               <span>By HyperNexis Team</span>
@@ -273,9 +310,10 @@ export default function BlogDetail() {
                 advantage, but a necessity. As we move deeper into 2024, digital
                 marketing strategies are becoming increasingly sophisticated,
                 data-driven, and customer-centric. Whether you're a startup
-                looking to establish your online presence or an established brand
-                seeking to expand your digital footprint, understanding and
-                implementing modern marketing techniques is crucial for success.
+                looking to establish your online presence or an established
+                brand seeking to expand your digital footprint, understanding
+                and implementing modern marketing techniques is crucial for
+                success.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 This comprehensive guide will walk you through the essential
@@ -644,8 +682,8 @@ export default function BlogDetail() {
                     Community Building
                   </h4>
                   <p className="text-gray-300">
-                    Brands are shifting focus to building loyal communities rather
-                    than just acquiring customers
+                    Brands are shifting focus to building loyal communities
+                    rather than just acquiring customers
                   </p>
                 </AnimatedCard>
               </div>
@@ -659,8 +697,8 @@ export default function BlogDetail() {
                 6. Implementing Your Digital Marketing Strategy
               </h2>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                Now that you understand the key concepts and trends, here's how to
-                implement a comprehensive digital marketing strategy:
+                Now that you understand the key concepts and trends, here's how
+                to implement a comprehensive digital marketing strategy:
               </p>
               <div className="space-y-4 mb-6">
                 {[1, 2, 3, 4, 5, 6, 7].map((num, idx) => (
@@ -680,8 +718,8 @@ export default function BlogDetail() {
                           </h4>
                           <p className="text-sm text-gray-300">
                             Set specific, measurable objectives for your digital
-                            marketing efforts (e.g., increase website traffic by 50%,
-                            generate 100 leads per month)
+                            marketing efforts (e.g., increase website traffic by
+                            50%, generate 100 leads per month)
                           </p>
                         </>
                       )}
@@ -691,8 +729,8 @@ export default function BlogDetail() {
                             Know Your Audience
                           </h4>
                           <p className="text-sm text-gray-300">
-                            Create detailed buyer personas based on research, data, and
-                            customer insights to tailor your messaging
+                            Create detailed buyer personas based on research,
+                            data, and customer insights to tailor your messaging
                           </p>
                         </>
                       )}
@@ -702,8 +740,8 @@ export default function BlogDetail() {
                             Audit Your Current Presence
                           </h4>
                           <p className="text-sm text-gray-300">
-                            Evaluate your existing digital assets, website, social media
-                            profiles, and current marketing efforts
+                            Evaluate your existing digital assets, website,
+                            social media profiles, and current marketing efforts
                           </p>
                         </>
                       )}
@@ -713,8 +751,9 @@ export default function BlogDetail() {
                             Choose Your Channels
                           </h4>
                           <p className="text-sm text-gray-300">
-                            Select the digital marketing channels that best align with
-                            your goals and where your audience spends their time
+                            Select the digital marketing channels that best
+                            align with your goals and where your audience spends
+                            their time
                           </p>
                         </>
                       )}
@@ -724,8 +763,9 @@ export default function BlogDetail() {
                             Create Quality Content
                           </h4>
                           <p className="text-sm text-gray-300">
-                            Develop a content calendar and create valuable, engaging
-                            content that addresses your audience's needs
+                            Develop a content calendar and create valuable,
+                            engaging content that addresses your audience's
+                            needs
                           </p>
                         </>
                       )}
@@ -735,8 +775,8 @@ export default function BlogDetail() {
                             Optimize and Test
                           </h4>
                           <p className="text-sm text-gray-300">
-                            Use A/B testing to experiment with different approaches and
-                            continuously optimize your campaigns
+                            Use A/B testing to experiment with different
+                            approaches and continuously optimize your campaigns
                           </p>
                         </>
                       )}
@@ -746,8 +786,8 @@ export default function BlogDetail() {
                             Monitor and Report
                           </h4>
                           <p className="text-sm text-gray-300">
-                            Track key metrics, analyze performance data, and adjust your
-                            strategy based on results
+                            Track key metrics, analyze performance data, and
+                            adjust your strategy based on results
                           </p>
                         </>
                       )}
@@ -768,8 +808,9 @@ export default function BlogDetail() {
                 Digital marketing in 2024 is more important than ever for
                 businesses of all sizes. By understanding the fundamental
                 principles, staying aware of emerging trends, and implementing a
-                comprehensive strategy tailored to your unique goals and audience,
-                you can position your business for sustained growth and success.
+                comprehensive strategy tailored to your unique goals and
+                audience, you can position your business for sustained growth
+                and success.
               </p>
               <p className="text-gray-300 leading-relaxed mb-4">
                 Remember, digital marketing is not a one-time effort but an
@@ -779,10 +820,10 @@ export default function BlogDetail() {
               </p>
               <p className="text-gray-300 leading-relaxed">
                 At HyperNexis, we're committed to helping businesses like yours
-                navigate the complex digital landscape and achieve their marketing
-                goals. Whether you need help with strategy, implementation, or
-                optimization, our team of experts is here to support your journey
-                to digital excellence.
+                navigate the complex digital landscape and achieve their
+                marketing goals. Whether you need help with strategy,
+                implementation, or optimization, our team of experts is here to
+                support your journey to digital excellence.
               </p>
             </div>
           </AnimatedSection>
@@ -791,7 +832,9 @@ export default function BlogDetail() {
           <AnimatedSection delay={0.45}>
             <div className="flex flex-wrap items-center justify-between p-6 border border-[#21BFFF]/20 rounded-lg bg-[#0b0b11] mb-12 hover:border-[#21BFFF]/40 hover:bg-[#0b0b11]/80 transition-all duration-300">
               <div>
-                <h3 className="font-bold text-white mb-2">Share This Article</h3>
+                <h3 className="font-bold text-white mb-2">
+                  Share This Article
+                </h3>
                 <p className="text-sm text-gray-400">
                   Help others discover this valuable content
                 </p>
@@ -842,15 +885,16 @@ export default function BlogDetail() {
                   <p className="text-gray-300 mb-4">
                     Our expert team at HyperNexis is dedicated to helping
                     businesses succeed in the digital world. With years of
-                    experience in digital marketing, web development, and business
-                    strategy, we're committed to delivering innovative solutions
-                    and insights that drive real results.
+                    experience in digital marketing, web development, and
+                    business strategy, we're committed to delivering innovative
+                    solutions and insights that drive real results.
                   </p>
                   <a
                     href="/contact-us"
                     className="text-[#21BFFF] font-semibold hover:text-white transition-all duration-300 inline-flex items-center gap-2 hover:gap-4"
                   >
-                    Learn More About Us <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                    Learn More About Us{" "}
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </a>
                 </div>
               </div>
@@ -924,8 +968,8 @@ export default function BlogDetail() {
                 Ready to Transform Your Digital Marketing?
               </h2>
               <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-                Our expert team at HyperNexis is ready to help you implement these
-                strategies and achieve your business goals.
+                Our expert team at HyperNexis is ready to help you implement
+                these strategies and achieve your business goals.
               </p>
               <a
                 href="/contact-us"
