@@ -244,7 +244,7 @@ export default function BlogDetail() {
                 1. Understanding the Modern Digital Marketing Landscape
               </h2>
               <AnimatedImage
-                src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Ff602f7468bbf473cb8bb0167fc2733f0?format=webp&width=1200"
+                src="https://images.unsplash.com/photo-1460925895917-adf4e565db13?w=1200&h=600&fit=crop"
                 alt="Digital Marketing Landscape"
                 delay={0.1}
               />
@@ -318,7 +318,7 @@ export default function BlogDetail() {
                 2. The Power of Data-Driven Decision Making
               </h2>
               <AnimatedImage
-                src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2Fb35560f5b2c04d95bbe2f7006b57e248?format=webp&width=1200"
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=600&fit=crop"
                 alt="Data Analytics Dashboard"
                 delay={0.1}
               />
@@ -399,7 +399,7 @@ export default function BlogDetail() {
                 3. Content Marketing: The Foundation of Digital Success
               </h2>
               <AnimatedImage
-                src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F6fab5f65743f44a0a873b314d5e249bb?format=webp&width=1200"
+                src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=1200&h=600&fit=crop"
                 alt="Content Creation Process"
                 delay={0.1}
               />
@@ -467,7 +467,7 @@ export default function BlogDetail() {
                 4. Social Media Marketing: Building Communities
               </h2>
               <AnimatedImage
-                src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F8223faf2a93940378db05c60eb65dc0f?format=webp&width=1200"
+                src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&h=600&fit=crop"
                 alt="Social Media Strategy"
                 delay={0.1}
               />
@@ -845,7 +845,7 @@ export default function BlogDetail() {
                 >
                   <div className="h-48 bg-gradient-to-br from-[#21BFFF]/10 to-[#570C95]/10 rounded mb-4 flex items-center justify-center overflow-hidden">
                     <img
-                      src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F951cd71545fe4e01a3ba8fde36966822?format=webp&width=600"
+                      src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop"
                       alt="Web Development Trends"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
@@ -870,7 +870,7 @@ export default function BlogDetail() {
                 >
                   <div className="h-48 bg-gradient-to-br from-[#21BFFF]/10 to-[#570C95]/10 rounded mb-4 flex items-center justify-center overflow-hidden">
                     <img
-                      src="https://cdn.builder.io/api/v1/image/assets%2F261dc11908494c5bafcd987f6ce1fadf%2F1237f4c6048441a49591a0be39ca1571?format=webp&width=600"
+                      src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=400&fit=crop"
                       alt="E-Commerce Success"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
