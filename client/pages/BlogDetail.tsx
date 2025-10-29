@@ -14,6 +14,55 @@ import {
 import { useState } from "react";
 import { useScrollAnimation } from "../hooks/use-scroll-animation";
 
+function SectionCard({
+  title,
+  imageUrl,
+  imageAlt,
+  isImageLeft = false,
+  delay = 0,
+  children
+}: {
+  title: string;
+  imageUrl: string;
+  imageAlt: string;
+  isImageLeft?: boolean;
+  delay?: number;
+  children: React.ReactNode;
+}) {
+  const { elementRef, isVisible } = useScrollAnimation();
+
+  return (
+    <div
+      ref={elementRef}
+      style={{
+        animation: isVisible ? `slideUp 0.8s ease-out ${delay}s both` : "none",
+      }}
+      className="mb-14"
+    >
+      <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
+        {title}
+      </h2>
+      <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 items-center`}>
+        {/* Image Column */}
+        <div className={isImageLeft ? "order-1" : "order-2"}>
+          <AnimatedImage
+            src={imageUrl}
+            alt={imageAlt}
+            delay={delay + 0.1}
+          />
+        </div>
+
+        {/* Text Column */}
+        <div className={isImageLeft ? "order-2" : "order-1"}>
+          <AnimatedCard delay={delay + 0.15} className="space-y-4">
+            {children}
+          </AnimatedCard>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function AnimatedSection({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
   const { elementRef, isVisible } = useScrollAnimation();
   return (
