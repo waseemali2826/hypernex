@@ -492,81 +492,75 @@ export default function BlogDetail() {
           </SectionCard>
 
           {/* Section 4 */}
-          <AnimatedSection delay={0.25}>
-            <div className="mb-14">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 bg-gradient-to-r from-[#21BFFF] to-[#570C95] bg-clip-text text-transparent">
-                4. Social Media Marketing: Building Communities
-              </h2>
-              <AnimatedImage
-                src="https://picsum.photos/1200/600?random=5"
-                alt="Social Media Strategy"
+          <SectionCard
+            title="4. Social Media Marketing: Building Communities"
+            imageUrl="https://picsum.photos/1200/600?random=5"
+            imageAlt="Social Media Strategy"
+            isImageLeft={true}
+            delay={0.25}
+          >
+            <p className="text-gray-300 mb-4 leading-relaxed">
+              Social media has evolved from a platform for personal connections
+              to a powerful business tool. With billions of users across various
+              platforms, social media offers unprecedented opportunities to
+              reach and engage your target audience. Whether you're using
+              Facebook, Instagram, LinkedIn, Twitter, or TikTok, each platform
+              has unique characteristics and audience demographics.
+            </p>
+            <p className="text-gray-300 mb-4 leading-relaxed">
+              Different platforms serve different purposes:
+            </p>
+            <div className="space-y-4 mb-6">
+              <AnimatedCard
                 delay={0.1}
-              />
-              <div className="mt-8">
-                <p className="text-gray-300 mb-4 leading-relaxed">
-                  Social media has evolved from a platform for personal connections
-                  to a powerful business tool. With billions of users across various
-                  platforms, social media offers unprecedented opportunities to
-                  reach and engage your target audience. Whether you're using
-                  Facebook, Instagram, LinkedIn, Twitter, or TikTok, each platform
-                  has unique characteristics and audience demographics.
+                className="p-4 border border-[#21BFFF]/20 rounded-lg bg-[#221040]/30 hover:border-[#21BFFF]/60 hover:bg-[#221040]/60 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
+              >
+                <h4 className="text-[#21BFFF] font-bold mb-2">
+                  Facebook & Instagram
+                </h4>
+                <p className="text-sm text-gray-300">
+                  Best for building communities, sharing visual content, and
+                  running targeted advertising campaigns
                 </p>
-                <p className="text-gray-300 mb-4 leading-relaxed">
-                  Different platforms serve different purposes:
+              </AnimatedCard>
+              <AnimatedCard
+                delay={0.15}
+                className="p-4 border border-[#21BFFF]/20 rounded-lg bg-[#221040]/30 hover:border-[#21BFFF]/60 hover:bg-[#221040]/60 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
+              >
+                <h4 className="text-[#21BFFF] font-bold mb-2">LinkedIn</h4>
+                <p className="text-sm text-gray-300">
+                  Ideal for B2B marketing, thought leadership, and professional
+                  networking
                 </p>
-                <div className="space-y-4 mb-6">
-                  <AnimatedCard
-                    delay={0.1}
-                    className="p-4 border border-[#21BFFF]/20 rounded-lg bg-[#221040]/30 hover:border-[#21BFFF]/60 hover:bg-[#221040]/60 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
-                  >
-                    <h4 className="text-[#21BFFF] font-bold mb-2">
-                      Facebook & Instagram
-                    </h4>
-                    <p className="text-sm text-gray-300">
-                      Best for building communities, sharing visual content, and
-                      running targeted advertising campaigns
-                    </p>
-                  </AnimatedCard>
-                  <AnimatedCard
-                    delay={0.15}
-                    className="p-4 border border-[#21BFFF]/20 rounded-lg bg-[#221040]/30 hover:border-[#21BFFF]/60 hover:bg-[#221040]/60 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
-                  >
-                    <h4 className="text-[#21BFFF] font-bold mb-2">LinkedIn</h4>
-                    <p className="text-sm text-gray-300">
-                      Ideal for B2B marketing, thought leadership, and professional
-                      networking
-                    </p>
-                  </AnimatedCard>
-                  <AnimatedCard
-                    delay={0.2}
-                    className="p-4 border border-[#21BFFF]/20 rounded-lg bg-[#221040]/30 hover:border-[#21BFFF]/60 hover:bg-[#221040]/60 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
-                  >
-                    <h4 className="text-[#21BFFF] font-bold mb-2">TikTok</h4>
-                    <p className="text-sm text-gray-300">
-                      Perfect for reaching younger audiences with creative,
-                      short-form video content
-                    </p>
-                  </AnimatedCard>
-                  <AnimatedCard
-                    delay={0.25}
-                    className="p-4 border border-[#21BFFF]/20 rounded-lg bg-[#221040]/30 hover:border-[#21BFFF]/60 hover:bg-[#221040]/60 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
-                  >
-                    <h4 className="text-[#21BFFF] font-bold mb-2">YouTube</h4>
-                    <p className="text-sm text-gray-300">
-                      The best platform for video marketing, tutorials, and
-                      long-form content
-                    </p>
-                  </AnimatedCard>
-                </div>
-                <p className="text-gray-300 leading-relaxed">
-                  Successful social media marketing is about building genuine
-                  communities, engaging with your audience, and creating content
-                  that resonates with them, rather than just broadcasting your
-                  message.
+              </AnimatedCard>
+              <AnimatedCard
+                delay={0.2}
+                className="p-4 border border-[#21BFFF]/20 rounded-lg bg-[#221040]/30 hover:border-[#21BFFF]/60 hover:bg-[#221040]/60 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
+              >
+                <h4 className="text-[#21BFFF] font-bold mb-2">TikTok</h4>
+                <p className="text-sm text-gray-300">
+                  Perfect for reaching younger audiences with creative,
+                  short-form video content
                 </p>
-              </div>
+              </AnimatedCard>
+              <AnimatedCard
+                delay={0.25}
+                className="p-4 border border-[#21BFFF]/20 rounded-lg bg-[#221040]/30 hover:border-[#21BFFF]/60 hover:bg-[#221040]/60 transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg hover:shadow-[#21BFFF]/20 cursor-pointer"
+              >
+                <h4 className="text-[#21BFFF] font-bold mb-2">YouTube</h4>
+                <p className="text-sm text-gray-300">
+                  The best platform for video marketing, tutorials, and
+                  long-form content
+                </p>
+              </AnimatedCard>
             </div>
-          </AnimatedSection>
+            <p className="text-gray-300 leading-relaxed">
+              Successful social media marketing is about building genuine
+              communities, engaging with your audience, and creating content
+              that resonates with them, rather than just broadcasting your
+              message.
+            </p>
+          </SectionCard>
 
           {/* Section 5 */}
           <AnimatedSection delay={0.3}>
