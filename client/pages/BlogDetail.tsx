@@ -210,7 +210,7 @@ export default function BlogDetail() {
           {/* Hero Image */}
           <div ref={heroRef} className="mb-12">
             <AnimatedImage
-              src="https://images.unsplash.com/photo-1611925591917-07ccb582351e?w=1200&h=600&fit=crop"
+              src="https://picsum.photos/1200/600?random=1"
               alt="Digital Marketing Strategy"
             />
           </div>
@@ -244,7 +244,7 @@ export default function BlogDetail() {
                 1. Understanding the Modern Digital Marketing Landscape
               </h2>
               <AnimatedImage
-                src="https://images.unsplash.com/photo-1460925895917-adf4e565db13?w=1200&h=600&fit=crop"
+                src="https://picsum.photos/1200/600?random=2"
                 alt="Digital Marketing Landscape"
                 delay={0.1}
               />
@@ -318,7 +318,7 @@ export default function BlogDetail() {
                 2. The Power of Data-Driven Decision Making
               </h2>
               <AnimatedImage
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=600&fit=crop"
+                src="https://picsum.photos/1200/600?random=3"
                 alt="Data Analytics Dashboard"
                 delay={0.1}
               />
@@ -399,7 +399,7 @@ export default function BlogDetail() {
                 3. Content Marketing: The Foundation of Digital Success
               </h2>
               <AnimatedImage
-                src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=1200&h=600&fit=crop"
+                src="https://picsum.photos/1200/600?random=4"
                 alt="Content Creation Process"
                 delay={0.1}
               />
@@ -467,7 +467,7 @@ export default function BlogDetail() {
                 4. Social Media Marketing: Building Communities
               </h2>
               <AnimatedImage
-                src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&h=600&fit=crop"
+                src="https://picsum.photos/1200/600?random=5"
                 alt="Social Media Strategy"
                 delay={0.1}
               />
@@ -845,7 +845,7 @@ export default function BlogDetail() {
                 >
                   <div className="h-48 bg-gradient-to-br from-[#21BFFF]/10 to-[#570C95]/10 rounded mb-4 flex items-center justify-center overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop"
+                      src="https://picsum.photos/600/400?random=6"
                       alt="Web Development Trends"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
@@ -870,7 +870,7 @@ export default function BlogDetail() {
                 >
                   <div className="h-48 bg-gradient-to-br from-[#21BFFF]/10 to-[#570C95]/10 rounded mb-4 flex items-center justify-center overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=400&fit=crop"
+                      src="https://picsum.photos/600/400?random=7"
                       alt="E-Commerce Success"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
